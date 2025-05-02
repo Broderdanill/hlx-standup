@@ -5,9 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     .container {
-      width: 480px;
+      width: 100%;
+      max-width: 480px;
+      padding: 0 12px;
       margin: 10px auto;
       font-family: sans-serif;
+      box-sizing: border-box;
     }
 
     .person-row {
@@ -236,6 +239,33 @@
 
       row.classList.add('compact');
     }
+    function initializeRow() {
+  const row = document.querySelector('.person-row');
+  const help = row.querySelector('.help-content');
+
+  row.classList.remove('green', 'yellow', 'compact');
+  help.innerHTML = '';
+
+  if (participantStatus === 'Done') {
+    row.classList.add('green', 'compact');
+    row.dataset.status = 'green';
+  } else if (participantStatus === 'Questions') {
+    row.classList.add('yellow');
+    row.dataset.status = 'yellow';
+
+    if (participantComments && participantComments.trim()) {
+      saveHelpText(help, row, participantComments);
+    } else {
+      showHelpInput(help, row);
+    }
+  } else {
+    row.dataset.status = 'none';
+    row.classList.add('compact');
+  }
+}
+
+// Kör direkt efter script laddats
+document.addEventListener('DOMContentLoaded', initializeRow);
   </script>
 </body>
 </html>

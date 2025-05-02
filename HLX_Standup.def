@@ -1,0 +1,3611 @@
+char-set: UTF-8
+#
+#  File exported Fri May 02 13:04:00 UTC 2025
+#
+begin application
+   name           : HLX:Standup
+begin container
+   name           : HLX:Standup
+   type           : 2
+   num-references : 22
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   export-version : 12
+   label          : Helix Standup Application
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32777
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : HLX:Standup:Home
+}
+reference {
+   type           : 32778
+   datatype       : 1
+   value          : 4\3\pwa\
+}
+reference {
+   type           : 32771
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : HLX:Standup:Participants
+}
+reference {
+   type           : 32778
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 32771
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : HLX:Standup:Home
+}
+reference {
+   type           : 32778
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 32771
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : HLX:Startup:Messages
+}
+reference {
+   type           : 32778
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 32771
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : HLX:Standup:Users
+}
+reference {
+   type           : 32778
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 32771
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : HLX:Standup:Standups
+}
+reference {
+   type           : 32778
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 32771
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 2
+   datatype       : 0
+   object         : HLX:Standup:Standups_Join_Participants
+}
+reference {
+   type           : 32778
+   datatype       : 1
+   value          : 0\
+}
+end
+begin schema
+   name           : HLX:Standup:Home
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 37
+   timestamp      : 1746190910
+   owner          : HLX:Standup
+   last-changed   : dice
+   default-vui    : pwa
+   num-vuis       : 1
+   export-version : 12
+   schema-type    : 4
+   next-field-id  : 1225050593
+   object-prop    : 4\0\0\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   assoc-to-follow-type : archive
+  assoc-to-follow : 
+   assoc-sel-type : 0
+     assoc-list   : 0\
+   schema-row-identifier : 5b9c73f0a3d4e84d94943486683337d4
+vui  {
+   id             : 536870913
+   name           : pwa
+   label          : pwa
+   timestamp      : 1746189658
+   vui-locale     : 
+   vui-type       : 9
+   owner          : dice
+   last-changed   : dice
+   display-prop   : 3\20\4\3\pwa\272\2\1\60019\4\24\NewViewWebAlias536870912\
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+}
+field {
+   id             : 536870914
+   name           : Container Panel Holder__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746162547
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\30\3\41\2\562\500\191788\84500\4\6\1\7\40\2147483648\14\40\1\20\4\15\Panel Holder__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\0\272\2\1\&
+ display-instance : 273\6\4\274\2\1\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\3\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\5298\6\0\532&
+ display-instance : 8\6\0\5329\4\4\left\5381\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870915
+   name           : Container Panel__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746162547
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\48\6\0\3\41\2\1124\1000\191225\84000\4\6\1\7\40\2147483649\11\4\8\0xC1BAAE\14\40\1\20\4\18\Container Panel__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\1&
+ display-instance : 68\40\1\169\40\1\170\40\536870914\272\6\0\281\2\0\282\4\8\0xC98821\283\2\93925\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\29&
+ display-instance : 8\4\3\1.0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\3\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left&
+ display-instance : \5235\4\4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870916
+   name           : Sub Panel Holder__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746162547
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\30\3\41\2\1124\1000\190100\83000\4\6\1\7\40\2147483650\14\40\1\20\4\15\Panel Holder__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\53687091&
+ display-instance : 5\272\2\1\273\6\4\274\2\1\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\4\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\52&
+ display-instance : 98\6\0\5328\6\0\5329\4\4\left\5381\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870917
+   name           : Sub Panel__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746162547
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\48\6\0\3\41\2\1687\1500\189538\82500\4\6\1\7\40\2147483651\11\4\8\0xC1BAAE\14\40\1\20\4\12\Sub Panel__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\&
+ display-instance : 1\169\40\1\170\40\536870916\272\6\0\281\2\0\282\4\8\0xC98821\283\2\91676\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\&
+ display-instance : 1.0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\4\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\&
+ display-instance : 4\4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870918
+   name           : Section Panel Holder__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746162547
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\30\3\41\2\1124\1000\187850\81000\4\6\1\7\40\2147483652\14\40\1\20\4\15\Panel Holder__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\53687091&
+ display-instance : 7\272\2\1\273\6\4\274\2\1\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\52&
+ display-instance : 98\6\0\5328\6\0\5329\4\4\left\5381\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870919
+   name           : Section Panel__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1687\1500\187288\80500\4\6\1\6\0\7\40\2147483653\11\4\8\0xC1BAAE\14\40\1\20\4\16\Section Panel__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168&
+ display-instance : \40\1\169\40\1\170\40\536870918\272\6\0\281\2\0\282\4\8\0xC98821\283\2\89426\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\&
+ display-instance : 4\3\1.0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\6\center\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left&
+ display-instance : \5235\4\4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870920
+   name           : Panel Holder__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\30\3\41\2\1799\2200\107873\75200\4\6\1\7\40\2147483654\14\40\1\20\4\15\Panel Holder__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\53687091&
+ display-instance : 9\273\6\4\274\6\1\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\5298\6\0\5&
+ display-instance : 328\2\0\5329\4\4\left\5381\6\0\5387\2\20\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870921
+   name           : Panel__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746190910
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\50\3\41\2\0\0\0\73000\4\6\1\6\0\7\40\2147483655\11\4\8\0xC1BAAE\14\40\1\20\4\8\Panel__c\24\4\8\0xFFFFFF\27\8\2\143\40\1\168\40\1\169\40\1\170\4&
+ display-instance : 0\536870920\272\6\0\281\2\0\282\4\8\0xC98821\283\2\13498\284\2\2812\285\2\21259\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.0\305\4\8\0xFF&
+ display-instance : FFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\13\center_center\5076\4\13\center_center\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5&
+ display-instance : 235\4\4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5250\4\4\pt-5\5251\4\4\NONE\5299\2\0\5311\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870922
+   name           : Section Panel2__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746190910
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1124\1000\1124\74000\4\6\1\6\0\7\40\2147483656\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel2__c\24\4\8\0xFFFFFF\27\8\2\143\40\3\168\&
+ display-instance : 40\1\169\40\1\170\40\536870920\272\6\0\281\2\0\282\4\8\0xC98821\283\2\31833\284\2\2812\285\2\31833\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4&
+ display-instance : \3\1.0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\52&
+ display-instance : 35\4\4\fill\5244\4\4\NONE\5245\4\4\fill\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870923
+   name           : Panel Holder2__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\30\3\41\2\2924\900\101911\10200\4\6\1\7\40\2147483657\14\40\1\20\4\16\Panel Holder2__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\53687092&
+ display-instance : 1\273\6\4\274\2\0\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\5298\6\0\5&
+ display-instance : 328\2\0\5329\4\4\left\5381\6\0\5387\2\20\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870924
+   name           : Panel2__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\0\0\0\9300\4\6\1\6\0\7\40\2147483658\11\4\8\0xC1BAAE\14\40\1\20\4\9\Panel2__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\1\169\40\1\170\4&
+ display-instance : 0\536870923\272\6\0\281\2\0\282\4\8\0xC98821\283\2\26209\284\2\2812\285\2\26209\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.0\305\4\8\0xFF&
+ display-instance : FFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\11\center_left\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\1\3\52&
+ display-instance : 44\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870925
+   name           : Section Panel3__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1124\1000\1124\10300\4\6\1\6\0\7\40\2147483659\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel3__c\24\4\8\0xFFFFFF\27\8\2\143\40\1\168\&
+ display-instance : 40\1\169\40\1\170\40\536870923\272\6\0\281\2\0\282\4\8\0xC98821\283\2\31046\284\2\2812\285\2\31046\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4&
+ display-instance : \3\1.0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\13\center_center\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4&
+ display-instance : \4\left\5235\4\4\fill\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870927
+   name           : nav_admin_users
+   datatype       : 32
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\14\2\8\2\3\41\2\0\0\0\0\4\6\1\5\6\2\20\4\11\New Menu__c\27\8\2\120\4\5\Users\121\40\1\122\6\0\123\40\0\170\40\0\5233\4\0\\5234\4\4\left\5397\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870928
+   name           : Section Panel4__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189958
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1124\1000\1124\74000\4\6\1\6\0\7\40\2147483662\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel4__c\24\4\8\0xFFFFFF\27\8\2\143\40\4\168\&
+ display-instance : 40\1\169\40\1\170\40\536870920\272\6\0\281\2\0\282\4\8\0xC98821\283\2\29583\284\2\2812\285\2\31046\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4&
+ display-instance : \3\1.0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\52&
+ display-instance : 35\4\4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\0\5247\6\0\5248\6\0\5299\2\0\5311\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870929
+   name           : Btn_Settings
+   datatype       : 32
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\20\2\8\1\3\41\2\2587\2100\9786\4200\4\6\1\5\6\2\7\40\2147483670\21\41\2\0\0\0\0\27\8\2\110\4\8\Settings\143\40\4294967295\170\40\536870940\310\&
+ display-instance : 6\0\5231\4\8\tertiary\5232\4\0\\5233\4\0\\5234\4\4\left\5376\6\0\5382\6\0\5383\4\0\\5384\2\0\5397\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870931
+   name           : Cell-Based Table Field__c
+   datatype       : 33
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+tablefield-schema : HLX:Standup:Standups_Join_Participants
+tablefield-server : @
+tablefield-query  : 1\4\1\1\536870914\99\1225050203\4\4\1\7\2\6\3\
+tablefield-numcols: 5
+tablefield-maxret : 1000
+ display-instance : 536870913\67\3\41\2\2249\2000\99549\26200\4\6\1\5\6\2\7\40\2147483664\11\4\8\0xffffff\14\40\1\20\4\0\\27\8\2\40\41\4\2249\2000\99549\2000\99549\26200\224&
+ display-instance : 9\26200\41\40\0\143\40\4294967295\168\40\1\169\40\1\170\40\536870922\182\41\2\0\0\45894\28600\224\40\1\226\6\1\227\6\1\232\4\3\Add\233\4\6\Delete\234\4\7&
+ display-instance : \Display\235\4\4\Save\236\4\11\Attach Name\237\4\9\File Name\238\4\8\Max Size\271\4\8\Deselect\272\6\0\5001\6\5\5003\6\2\5004\6\4\5008\4\0\\5009\4\0\\501&
+ display-instance : 2\6\1\5013\4\10\Select All\5014\4\12\DeSelect All\5015\4\0\\5016\4\6\Report\5023\6\0\5060\4\0\\5067\6\0\5071\6\0\5072\6\0\5100\2\0\5101\2\0\5102\2\0\5103&
+ display-instance : \2\0\5104\2\1\5109\2\0\5110\2\0\5212\6\0\5233\4\0\\5234\4\4\left\5308\6\1\5319\6\0\5324\6\0\5335\4\4\HIDE\5339\6\1\5346\6\2\5347\4\0\\5357\40\0\5360\6\0\&
+ display-instance : 5363\4\0\\5364\4\0\\5371\4\0\\5395\6\0\5397\4\0\\5399\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870932
+   name           : Section Panel5__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1124\1000\1124\10300\4\6\1\6\0\7\40\2147483665\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel5__c\24\4\8\0xFFFFFF\27\8\2\143\40\2\168\&
+ display-instance : 40\1\169\40\1\170\40\536870923\272\6\0\281\2\0\282\4\8\0xC98821\283\2\34308\284\2\2812\285\2\34308\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4&
+ display-instance : \3\1.0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\11\center_left\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4&
+ display-instance : \left\5235\4\1\3\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870936
+   name           : Section Panel6__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746190910
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1124\1000\1124\1000\4\6\1\7\40\2147483675\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel6__c\24\4\8\0xFFFFFF\27\8\2\143\40\2\168\40\1\&
+ display-instance : 169\40\1\170\40\536870920\272\6\0\281\2\0\282\4\8\0xC98821\283\2\11248\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.&
+ display-instance : 0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\13\center_center\5076\4\13\center_center\5077\4\4\NONE\5216\40\0\5233\4\0\\5&
+ display-instance : 234\4\4\left\5235\4\2\12\5244\4\4\NONE\5245\4\2\12\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870937
+   name           : Panel Holder3__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\30\3\41\2\6524\1200\91563\25200\4\6\1\7\40\2147483676\14\40\1\20\4\16\Panel Holder3__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\53687093&
+ display-instance : 6\273\6\4\274\2\0\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\5298\6\0\5&
+ display-instance : 328\2\0\5329\4\4\left\5381\6\0\5387\2\20\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870938
+   name           : Panel3__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\0\0\0\24000\4\6\1\7\40\2147483677\11\4\8\0xC1BAAE\14\40\1\20\4\9\Panel3__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\1\169\40\1\170\40\5&
+ display-instance : 36870937\272\6\0\281\2\0\282\4\8\0xC98821\283\2\29471\284\2\2812\285\2\29471\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.0\305\4\8\0xFFFFF&
+ display-instance : F\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\13\center_center\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\4\auto\&
+ display-instance : 5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870939
+   name           : Section Panel7__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1124\1000\1124\25000\4\6\1\7\40\2147483678\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel7__c\24\4\8\0xFFFFFF\27\8\2\143\40\1\168\40\1&
+ display-instance : \169\40\1\170\40\536870937\272\6\0\281\2\0\282\4\8\0xC98821\283\2\11248\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1&
+ display-instance : .0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\10\top_center\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left&
+ display-instance : \5235\4\1\4\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870940
+   name           : Section Panel8__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1124\1000\1124\1000\4\6\1\7\40\2147483679\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel8__c\24\4\8\0xFFFFFF\27\8\2\143\40\2\168\40\1\&
+ display-instance : 169\40\1\170\40\536870937\272\6\0\281\2\0\282\4\8\0xC98821\283\2\11248\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.&
+ display-instance : 0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\13\center_center\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\le&
+ display-instance : ft\5235\4\4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870941
+   name           : Section Panel9__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1124\1000\1124\1000\4\6\1\7\40\2147483680\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel9__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\1\&
+ display-instance : 169\40\1\170\40\536870920\272\6\0\281\2\0\282\4\8\0xC98821\283\2\11248\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.&
+ display-instance : 0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\13\center_center\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\le&
+ display-instance : ft\5235\4\2\12\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870942
+   name           : Panel Holder4__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\30\3\41\2\3374\1500\35320\25500\4\6\1\7\40\2147483681\14\40\1\20\4\16\Panel Holder4__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\53687094&
+ display-instance : 1\273\6\4\274\2\0\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\5298\6\0\5&
+ display-instance : 328\2\0\5329\4\4\left\5381\6\0\5387\2\20\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870943
+   name           : Panel4__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\52\3\41\2\0\0\0\24000\4\6\1\7\40\2147483682\11\4\8\0xC1BAAE\14\40\1\20\4\9\Panel4__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\1\169\40\1\170\40\5&
+ display-instance : 36870942\272\6\0\281\2\0\282\4\8\0xC98821\283\2\11248\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.0\305\4\8\0xFFFFF&
+ display-instance : F\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\4\fill\5244\4\4\N&
+ display-instance : ONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5252\4\4\pl-5\5253\4\4\pr-5\5264\4\4\NONE\5265\4\4\NONE\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536880914
+   name           : col_VF_Row
+   datatype       : 34
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746190103
+   owner          : dice
+   last-changed   : dice
+colfield-parent   : 536870931
+colfield-datafield: 1225050209
+colfield-collength: 254
+colfield-datasrc  : 4
+ display-instance : 536870913\26\3\41\2\1574\1600\33520\8100\4\6\1\7\40\2147483663\14\40\1\20\4\0\\27\8\2\80\4\7018\<!DOCTYPE html><html lang="sv"><head>  <meta charset="&
+ display-instance : UTF-8" />  <meta name="viewport" content="width=device-width, initial-scale=1" />  <style>    .container {      width: 100%;      max-width: 480px;&
+ display-instance :       padding: 0 12px;      margin: 10px auto;      font-family: sans-serif;      box-sizing: border-box;    }    .person-row {      background-co&
+ display-instance : lor: #f9f9f9;      border: 1px solid #ddd;      border-radius: 6px;      padding: 8px 12px;      margin-bottom: 10px;      display: flex;      just&
+ display-instance : ify-content: space-between;      align-items: center;      transition: all 0.3s ease;      overflow: hidden;    }    .person-row.compact {      ma&
+ display-instance : x-height: 60px;    }    .person-row.green {      background-color: #4CAF50;      color: #dcffdd;    }    .person-row.yellow {      background-co&
+ display-instance : lor: #ffdf3f;      color: #3a330f;    }    .person-name {      font-size: 16px;      font-weight: 500;      margin-right: 10px;    }    .help-c&
+ display-instance : ontent {      flex-grow: 1;      display: flex;      align-items: center;      gap: 6px;      overflow: hidden;      min-width: 0;    }    .help&
+ display-instance : -text {      font-size: 14px;      white-space: nowrap;      overflow: hidden;      text-overflow: ellipsis;      flex-grow: 1;    }    .edit-btn&
+ display-instance : ,    .close-btn {      background: none;      border: none;      font-size: 18px;      color: #666;      cursor: pointer;      padding: 6px;     &
+ display-instance :  border-radius: 50%;      line-height: 1;      transition: background-color 0.2s, color 0.2s;      flex-shrink: 0;      width: 32px;      height: 32&
+ display-instance : px;      display: flex;      align-items: center;      justify-content: center;    }    .edit-btn:hover,    .close-btn:hover {      background-co&
+ display-instance : lor: #f3f3f3;    }    .close-btn:hover {      color: #e00;    }    .edit-btn:hover {      color: #000;    }    .ok-btn {      background-colo&
+ display-instance : r: #4CAF50;      color: white;      border: none;      border-radius: 20px;      padding: 6px 14px;      font-size: 13px;      cursor: pointer;   &
+ display-instance :    transition: background-color 0.2s, box-shadow 0.2s;      flex-shrink: 0;    }    .ok-btn:hover {      background-color: #45a045;      box-shadow&
+ display-instance : : 0 2px 6px rgba(0, 0, 0, 0.1);    }    .input-help {      font-size: 14px;      padding: 6px 10px;      border: 1px solid #bbb;      border-radiu&
+ display-instance : s: 6px;      flex-grow: 1;      background-color: #fffefa;      box-sizing: border-box;      outline: none;      transition: border-color 0.2s, box-&
+ display-instance : shadow 0.2s;    }    .input-help:focus {      border-color: #999;      box-shadow: 0 0 0 2px rgba(100, 100, 100, 0.1);    }  </style></head><bod&
+ display-instance : y>  <div class="container">    <div class="person-row compact" onclick="cycleStatus(event, this)">      <span class="person-name">$1225050220$</span>&
+ display-instance :       <div class="help-content"></div>      <button class="close-btn" onclick="removeRow(event, this)">&times;</button>    </div>  </div>  <script>&
+ display-instance :     var participantStatus = '$1225050225$';    var participantId = '$1225050221$';    var participantComments = '$1225050281$';    function handleEve&
+ display-instance : nt(eventName, eventData) {			if (parent && parent.DView && parent.DView.SendSignalToParent) {				parent.DView.SendSignalToParent(undefined, eventName, &
+ display-instance : eventData);			}		}    function cycleStatus(event, row) {      if (event.target.tagName === 'INPUT' || event.target.tagName === 'BUTTON') return;  &
+ display-instance :     const help = row.querySelector('.help-content');      row.classList.remove('green', 'yellow', 'compact');      help.innerHTML = '';      row.datas&
+ display-instance : et.status = row.dataset.status || 'none';      if (row.dataset.status === 'none') {        row.classList.add('green', 'compact');        row.dataset.&
+ display-instance : status = 'green';        participantStatus = 'Done';              } else if (row.dataset.status === 'green') {        row.classList.add('yellow');  &
+ display-instance :       row.dataset.status = 'yellow';        participantStatus = 'Questions';        showHelpInput(help, row);      } else {        row.dataset.status&
+ display-instance :  = 'none';        row.classList.add('compact');        participantStatus = 'New';      }      handleEvent('EventStandupStatusChange', participantId &
+ display-instance : + '###' + participantStatus);    }    function removeRow(event, btn) {      event.stopPropagation();      const row = btn.closest('.person-row'); &
+ display-instance :      if (row) row.remove();      handleEvent('EventStandupDeleteRow', participantId + '###' + 'delete row in Helix');    }    function showHelpInput(&
+ display-instance : container, row, existing = '') {      container.innerHTML = '';      row.classList.remove('compact');      const input = document.createElement('inpu&
+ display-instance : t');      input.type = 'text';      input.value = existing;      input.className = 'input-help';      input.placeholder = 'Vad behöver du hjälp med&
+ display-instance : ?';      input.onclick = (e) => e.stopPropagation();      input.addEventListener('keydown', function (e) {        if (e.key === 'Enter') {          &
+ display-instance : e.preventDefault();          saveHelpText(container, row, input.value);          handleEvent('EventStandupComments', participantId + '###' + input.valu&
+ display-instance : e);        }      });      const okBtn = document.createElement('button');      okBtn.textContent = 'OK';      okBtn.className = 'ok-btn';      ok&
+ display-instance : Btn.onclick = function (e) {        e.stopPropagation();        saveHelpText(container, row, input.value);        handleEvent('EventStandupComments', &
+ display-instance : participantId + '###' + input.value);      };      container.appendChild(input);      container.appendChild(okBtn);      setTimeout(() => input.focu&
+ display-instance : s(), 0);    }    function saveHelpText(container, row, text) {      container.innerHTML = '';      const display = document.createElement('div'); &
+ display-instance :      display.className = 'help-text';      display.textContent = text;      const editBtn = document.createElement('button');      editBtn.className &
+ display-instance : = 'edit-btn';      editBtn.title = 'Redigera';      editBtn.innerHTML = '🖉';      editBtn.onclick = function (e) {        e.stopPropagation();   &
+ display-instance :      showHelpInput(container, row, text);      };      container.appendChild(display);      container.appendChild(editBtn);      row.classList.add(&
+ display-instance : 'compact');    }    function initializeRow() {  const row = document.querySelector('.person-row');  const help = row.querySelector('.help-content');&
+ display-instance :   row.classList.remove('green', 'yellow', 'compact');  help.innerHTML = '';  if (participantStatus === 'Done') {    row.classList.add('green', 'comp&
+ display-instance : act');    row.dataset.status = 'green';  } else if (participantStatus === 'Questions') {    row.classList.add('yellow');    row.dataset.status = 'yel&
+ display-instance : low';    if (participantComments && participantComments.trim()) {      saveHelpText(help, row, participantComments);    } else {      showHelpInput(&
+ display-instance : help, row);    }  } else {    row.dataset.status = 'none';    row.classList.add('compact');  }}// Kör direkt efter script laddatsdocument.addEv&
+ display-instance : entListener('DOMContentLoaded', initializeRow);  </script></body></html>\143\40\1\170\40\536870928\220\40\10000\221\40\2\310\6\0\323\6\0\5021\6\3\502&
+ display-instance : 2\4\0\\5024\6\2\5025\6\1\5204\2\0\5233\4\0\\5234\4\4\left\5294\6\2\5334\2\0\5355\4\0\\5374\2\0\5378\4\0\\5397\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050202
+   name           : Group
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   char-menu      : HLX:Standup:Groups
+ display-instance : 536870913\49\3\41\2\2249\2000\24858\6900\4\6\1\5\6\2\7\40\2147483661\14\40\1\20\4\4\Team\21\41\2\0\0\5399\2000\27\8\2\60\40\1\65\41\2\15748\2100\18897\49&
+ display-instance : 00\66\41\2\19460\2100\22609\4900\68\6\2\143\40\4294967295\151\41\2\0\2100\15185\4900\170\40\536870943\228\6\1\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\3&
+ display-instance : 10\6\0\328\2\1\5066\4\11\select team\5116\6\0\5233\4\0\\5234\4\4\left\5237\4\11\Select team\5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352&
+ display-instance : \2\0\5353\4\0\\5354\2\0\5368\0\5369\0\5370\0\5373\6\0\5375\6\0\5378\4\0\\5379\2\0\5380\4\0\\5382\6\0\5383\4\0\\5384\2\0\5397\4\0\\5403\2\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050203
+   name           : Standup_ID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870913\43\3\41\2\2249\8900\21146\13800\4\6\1\5\6\2\7\40\2147483666\14\40\1\20\4\0\\21\41\2\0\0\10123\2000\27\8\2\60\40\1\66\41\2\15748\2100\18897\4900&
+ display-instance : \143\40\4294967295\151\41\2\0\2100\15185\4900\170\40\536870928\228\6\1\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left&
+ display-instance : \5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5379\2\0\5380\4\0\\&
+ display-instance : 5382\6\0\5383\4\0\\5384\2\0\5397\4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050207
+   name           : Day
+   datatype       : 13
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\26\3\41\2\2249\2000\21146\6900\4\6\1\5\6\2\7\40\2147483660\14\40\1\20\4\0\\21\41\2\0\0\3487\2000\27\8\2\66\41\2\15748\2100\18897\4900\143\40\42&
+ display-instance : 94967295\151\41\2\0\2100\15185\4900\170\40\536870928\228\6\1\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5066\4\10\Select day\5233\4\0\\5234\4\4\le&
+ display-instance : ft\5237\4\10\Select day\5304\6\1\5345\4\0\\5347\4\0\\5397\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050209
+   name           : VF_RowTemplate
+   datatype       : 42
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870913\17\3\41\2\2249\15800\27333\19900\4\6\0\7\40\2147483663\14\40\1\20\4\0\\27\8\2\80\4\27\template:StandupRowTemplate\143\40\4294967295\170\40\5368&
+ display-instance : 70928\310\6\0\323\6\1\5024\6\2\5025\6\1\5233\4\0\\5234\4\4\left\5378\4\0\\5397\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050220
+   name           : col_Name
+   datatype       : 34
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746178945
+   owner          : dice
+   last-changed   : dice
+colfield-parent   : 536870931
+colfield-datafield: 1225050201
+colfield-collength: 254
+colfield-datasrc  : 0
+ display-instance : 536870913\49\3\41\2\1687\8000\20584\12900\4\6\0\5\6\2\7\40\2147483650\14\40\1\20\4\4\Name\21\41\2\0\0\5061\2000\27\8\2\60\40\1\66\41\2\15748\2100\18897\4&
+ display-instance : 900\143\40\2\151\41\2\0\2100\15185\4900\170\40\0\220\40\10000\221\40\3\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5021\6\3\5022\4\0\\5116\6\0\5204&
+ display-instance : \2\0\5233\4\0\\5234\4\4\left\5294\6\2\5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5334\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5355\4\0\\5373\6\0\53&
+ display-instance : 74\2\0\5375\6\0\5378\4\0\\5379\2\0\5380\4\0\\5382\6\0\5383\4\0\\5384\2\0\5397\4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050221
+   name           : col_Participant_ID
+   datatype       : 34
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746178945
+   owner          : dice
+   last-changed   : dice
+colfield-parent   : 536870931
+colfield-datafield: 536870913
+colfield-collength: 254
+colfield-datasrc  : 0
+ display-instance : 536870913\28\3\41\2\337\14800\15522\19700\4\6\0\7\40\2147483640\20\4\14\Participant_ID\21\41\2\0\0\11698\2000\27\8\2\28\6\4\29\6\1\60\40\1\65\41\2\0\0\0\&
+ display-instance : 0\143\40\3\151\41\2\0\2100\15185\4900\170\40\0\220\40\10000\221\40\4\231\6\1\5021\6\3\5022\4\0\\5204\2\0\5294\6\2\5334\2\0\5355\4\0\\5374\2\0\5379\2\0\53&
+ display-instance : 80\4\0\\5383\4\0\\5384\2\0\5403\2\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050225
+   name           : col_Status
+   datatype       : 34
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746178945
+   owner          : dice
+   last-changed   : dice
+colfield-parent   : 536870931
+colfield-datafield: 7
+colfield-collength: 254
+colfield-datasrc  : 0
+ display-instance : 536870913\33\3\41\2\562\20200\22834\24800\4\6\0\5\6\2\7\40\2147483651\14\40\1\20\4\6\Status\21\41\2\0\0\6299\2000\27\8\2\60\40\1\64\6\1\143\40\3\151\41\2&
+ display-instance : \0\2100\22272\4600\170\40\0\220\40\10000\221\40\4\230\4\26\3\0\New\1\Done\2\Questions\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5021\6\3\5022\4\0&
+ display-instance : \\5204\2\0\5233\4\0\\5234\4\4\left\5294\6\2\5334\2\0\5345\4\0\\5347\4\0\\5355\4\0\\5374\2\0\5397\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050281
+   name           : col_Comments
+   datatype       : 34
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746178945
+   owner          : dice
+   last-changed   : dice
+colfield-parent   : 536870931
+colfield-datafield: 1225050270
+colfield-collength: 254
+colfield-datasrc  : 0
+ display-instance : 536870913\51\3\41\2\562\25300\19459\30200\4\6\0\5\6\2\7\40\2147483653\14\40\1\20\4\8\Comments\21\41\2\0\0\8998\2000\27\8\2\60\40\1\66\41\2\15748\2100\188&
+ display-instance : 97\4900\143\40\4\151\41\2\0\2100\15185\4900\170\40\0\220\40\10000\221\40\5\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5021\6\3\5022\4\0\\5116\6\0\&
+ display-instance : 5204\2\0\5233\4\0\\5234\4\4\left\5294\6\2\5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5334\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5355\4\0\\5368\4\&
+ display-instance : 0\\5369\4\0\\5373\6\0\5374\2\0\5375\6\0\5378\4\0\\5379\2\0\5380\4\0\\5382\6\0\5383\4\0\\5384\2\0\5397\4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050286
+   name           : zzEventDataId
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870913\43\3\41\2\2249\21900\21146\26800\4\6\1\5\6\2\7\40\2147483667\14\40\1\20\4\13\zzEventDataId\21\41\2\0\0\15410\2000\27\8\2\60\40\1\66\41\2\15748\&
+ display-instance : 2100\18897\4900\143\40\4294967295\151\41\2\0\2100\15185\4900\170\40\536870928\228\6\1\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0&
+ display-instance : \\5234\4\4\left\5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5379&
+ display-instance : \2\0\5380\4\0\\5382\6\0\5383\4\0\\5384\2\0\5397\4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050288
+   name           : zzEventDataValue
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 0
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870913\43\3\41\2\2249\28800\21146\33700\4\6\1\5\6\2\7\40\2147483668\14\40\1\20\4\16\zzEventDataValue\21\41\2\0\0\15298\2000\27\8\2\60\40\1\66\41\2\157&
+ display-instance : 48\2100\18897\4900\143\40\4294967295\151\41\2\0\2100\15185\4900\170\40\536870928\228\6\1\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\&
+ display-instance : 4\0\\5234\4\4\left\5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5&
+ display-instance : 379\2\0\5380\4\0\\5382\6\0\5383\4\0\\5384\2\0\5397\4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050592
+   name           : Heading
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189658
+   owner          : u0017931
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 2000
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870913\45\4\6\1\3\41\2\2249\2000\27895\6200\5\6\2\7\40\2147483674\14\40\1\20\4\7\Standup\21\41\2\0\0\17097\1300\22\4\7\Header2\27\8\2\60\40\1\66\41\2\&
+ display-instance : 22497\1400\25646\4200\81\4\7\Header1\143\40\4294967295\151\41\2\0\1400\21934\4200\170\40\536870925\231\6\0\240\6\1\288\6\0\289\4\4\0x00\290\4\4\0x00\310\&
+ display-instance : 6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\53&
+ display-instance : 75\6\0\5378\4\0\\5379\2\0\5380\4\0\\5382\6\0\5383\4\0\\5384\2\0\5397\4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+end
+begin schema
+   name           : HLX:Standup:Participants
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 15
+   timestamp      : 1746189658
+   owner          : HLX:Standup
+   last-changed   : dice
+   default-vui    : Default Administrator View__c
+   num-vuis       : 1
+   export-version : 12
+   schema-type    : 1
+   next-field-id  : 1225050271
+   index          : 1\379\1\0
+   object-prop    : 4\0\0\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   assoc-to-follow-type : archive
+  assoc-to-follow : 
+   assoc-sel-type : 0
+     assoc-list   : 0\
+   schema-row-identifier : 74f3f558e28b7931daa5b7e556bec441
+vui  {
+   id             : 536870912
+   name           : Default Administrator View__c
+   label          : Default Administrator View__c
+   timestamp      : 1746189658
+   vui-locale     : 
+   vui-type       : 1
+   owner          : dice
+   last-changed   : dice
+   display-prop   : 1\20\4\29\Default Administrator View__c\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1
+   name           : Participant_ID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 15
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\14\3\41\2\7536\2500\34982\5300\4\6\1\7\40\2147483640\20\4\14\Participant_ID\21\41\2\0\400\11698\2800\27\8\16\28\6\4\29\6\1\60\40\1\65\41\2\0\0\&
+ display-instance : 0\0\143\40\4294967295\151\41\2\12260\0\27445\2800\170\40\0\231\6\1\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 2
+   name           : Submitter
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : $-1$
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\7986\5000\36557\7800\4\6\1\7\40\2147483641\20\4\9\Submitter\21\41\2\0\400\9111\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\30\65\41\2\0\&
+ display-instance : 0\0\0\66\41\2\25421\0\28570\2800\143\40\4294967295\151\41\2\9673\0\24858\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 3
+   name           : Create Date
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746162273
+   owner          : dice
+   last-changed   : dice
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\6974\7500\36557\10300\4\6\1\7\40\2147483642\20\4\11\Create Date\21\41\2\0\400\10123\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\23\65\41&
+ display-instance : \2\0\0\0\0\66\41\2\26434\0\29583\2800\143\40\4294967295\151\41\2\10686\0\25871\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 4
+   name           : Assigned To
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\6861\10000\36557\12800\4\6\1\7\40\2147483643\20\4\11\Assigned To\21\41\2\0\400\10236\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\30\65\4&
+ display-instance : 1\2\0\0\0\0\66\41\2\26546\0\29695\2800\143\40\4294967295\151\41\2\10798\0\25983\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 5
+   name           : Last Modified By
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\3599\12500\36557\15300\4\6\1\7\40\2147483644\20\4\16\Last Modified By\21\41\2\0\400\13498\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\33&
+ display-instance : \65\41\2\0\0\0\0\66\41\2\29808\0\32957\2800\143\40\4294967295\151\41\2\14060\0\29245\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 6
+   name           : Modified Date
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746162273
+   owner          : dice
+   last-changed   : dice
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\5624\15000\36557\17800\4\6\1\7\40\2147483645\20\4\13\Modified Date\21\41\2\0\400\11473\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\23\65&
+ display-instance : \41\2\0\0\0\0\66\41\2\27784\0\30933\2800\143\40\4294967295\151\41\2\12035\0\27220\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 7
+   name           : Status
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1746178763
+   owner          : dice
+   last-changed   : dice
+   enum-value     : New
+   enum-value     : Done
+   enum-value     : Questions
+   enum-value     : Delete
+   default        : 0
+   permission     : 4\2
+   permission     : 3\1
+ display-instance : 536870912\17\3\41\2\10798\17500\47468\20000\4\6\1\7\40\2147483646\20\4\6\Status\21\41\2\0\400\6299\2500\27\8\16\28\6\4\29\6\1\60\40\1\61\40\0\64\6\1\65\4&
+ display-instance : 1\2\0\0\0\0\143\40\4294967295\151\41\2\6861\400\36669\2900\170\40\0\230\4\35\4\0\New\1\Done\2\Questions\3\Delete\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 8
+   name           : Short Description
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : x
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\1012\20000\36557\22800\4\6\1\7\40\2147483647\20\4\17\Short Description\21\41\2\0\400\16085\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\5&
+ display-instance : 0\65\41\2\0\0\0\0\66\41\2\32395\0\35544\2800\143\40\4294967295\151\41\2\16647\0\31832\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 15
+   name           : Status History
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   permission     : 4\1
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 16
+   name           : Notifier Listening__c
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746161627
+   owner          : dice
+   last-changed   : dice
+   enum-value     : Not Listening
+   enum-value     : Listening
+   default        : 0
+   permission     : 4\2
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 379
+   name           : Record ID__c
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 128
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050201
+   name           : Name
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\37\4\6\1\3\41\2\7311\26300\42181\29100\5\6\2\7\40\2147483650\14\40\1\20\4\4\Name\21\41\2\0\400\15410\2800\60\40\1\66\41\2\31721\0\34870\2800\14&
+ display-instance : 3\40\4294967295\151\41\2\15973\0\31158\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\5302\6\&
+ display-instance : 0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397\4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050203
+   name           : Standup_ID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\37\4\6\1\3\41\2\4499\34500\39369\37300\5\6\2\7\40\2147483649\14\40\1\20\4\10\Standup_ID\21\41\2\0\400\15410\2800\60\40\1\66\41\2\31721\0\34870\&
+ display-instance : 2800\143\40\4294967295\151\41\2\15973\0\31158\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\&
+ display-instance : 5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397\4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050204
+   name           : User_ID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\39\4\6\1\3\41\2\3262\30500\38132\33300\5\6\2\7\40\2147483648\14\40\1\20\4\7\User_ID\21\41\2\0\400\15410\2800\60\40\1\66\41\2\31721\0\34870\2800&
+ display-instance : \143\40\4294967295\151\41\2\15973\0\31158\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\5302&
+ display-instance : \6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397\&
+ display-instance : 4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050270
+   name           : Comments
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 0
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\39\4\6\1\3\41\2\7986\40800\42856\43600\5\6\2\7\40\2147483651\14\40\1\20\4\8\Comments\21\41\2\0\400\15410\2800\60\40\1\66\41\2\31721\0\34870\280&
+ display-instance : 0\143\40\4294967295\151\41\2\15973\0\31158\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\530&
+ display-instance : 2\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397&
+ display-instance : \4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+end
+begin schema
+   name           : HLX:Startup:Messages
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 13
+   timestamp      : 1746189659
+   owner          : HLX:Standup
+   last-changed   : dice
+   default-vui    : Default Administrator View__c
+   num-vuis       : 1
+   export-version : 12
+   schema-type    : 1
+   next-field-id  : 1225050403
+   index          : 1\379\1\0
+   object-prop    : 4\0\0\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   assoc-to-follow-type : archive
+  assoc-to-follow : 
+   assoc-sel-type : 0
+     assoc-list   : 0\
+   schema-row-identifier : d8f319f592668cf8d5e8290efc35d5f5
+vui  {
+   id             : 536870912
+   name           : Default Administrator View__c
+   label          : Default Administrator View__c
+   timestamp      : 1746189659
+   vui-locale     : 
+   vui-type       : 1
+   owner          : dice
+   last-changed   : dice
+   display-prop   : 1\20\4\29\Default Administrator View__c\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1
+   name           : Request ID__c
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 15
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\14\3\41\2\7536\2500\32845\5300\4\6\1\7\40\2147483640\20\4\10\Request ID\21\41\2\0\400\9561\2800\27\8\16\28\6\4\29\6\1\60\40\1\65\41\2\0\0\0\0\1&
+ display-instance : 43\40\4294967295\151\41\2\10123\0\25308\2800\170\40\0\231\6\1\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 2
+   name           : Submitter__c
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : $-1$
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\7986\5000\36557\7800\4\6\1\7\40\2147483641\20\4\9\Submitter\21\41\2\0\400\9111\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\30\65\41\2\0\&
+ display-instance : 0\0\0\66\41\2\25421\0\28570\2800\143\40\4294967295\151\41\2\9673\0\24858\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 3
+   name           : Create Date__c
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746177466
+   owner          : dice
+   last-changed   : dice
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\6974\7500\36557\10300\4\6\1\7\40\2147483642\20\4\11\Create Date\21\41\2\0\400\10123\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\23\65\41&
+ display-instance : \2\0\0\0\0\66\41\2\26434\0\29583\2800\143\40\4294967295\151\41\2\10686\0\25871\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 4
+   name           : Assigned To__c
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\6861\10000\36557\12800\4\6\1\7\40\2147483643\20\4\11\Assigned To\21\41\2\0\400\10236\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\30\65\4&
+ display-instance : 1\2\0\0\0\0\66\41\2\26546\0\29695\2800\143\40\4294967295\151\41\2\10798\0\25983\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 5
+   name           : Last Modified By__c
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\3599\12500\36557\15300\4\6\1\7\40\2147483644\20\4\16\Last Modified By\21\41\2\0\400\13498\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\33&
+ display-instance : \65\41\2\0\0\0\0\66\41\2\29808\0\32957\2800\143\40\4294967295\151\41\2\14060\0\29245\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 6
+   name           : Modified Date__c
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746177466
+   owner          : dice
+   last-changed   : dice
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\5624\15000\36557\17800\4\6\1\7\40\2147483645\20\4\13\Modified Date\21\41\2\0\400\11473\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\23\65&
+ display-instance : \41\2\0\0\0\0\66\41\2\27784\0\30933\2800\143\40\4294967295\151\41\2\12035\0\27220\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 7
+   name           : Status__c
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1746177466
+   owner          : dice
+   last-changed   : dice
+   enum-value     : Active
+   enum-value     : Inactive
+   enum-value     : Delete
+   default        : 0
+   permission     : 4\2
+   permission     : 3\1
+ display-instance : 536870912\17\3\41\2\10798\17500\40269\20000\4\6\1\7\40\2147483646\20\4\6\Status\21\41\2\0\400\6299\2500\27\8\16\28\6\4\29\6\1\60\40\1\61\40\0\64\6\1\65\4&
+ display-instance : 1\2\0\0\0\0\143\40\4294967295\151\41\2\6861\400\29470\2900\170\40\0\230\4\30\3\0\Active\1\Inactive\2\Delete\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 8
+   name           : Short Description__c
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : x
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\1012\20000\36557\22800\4\6\1\7\40\2147483647\20\4\17\Short Description\21\41\2\0\400\16085\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\5&
+ display-instance : 0\65\41\2\0\0\0\0\66\41\2\32395\0\35544\2800\143\40\4294967295\151\41\2\16647\0\31832\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 15
+   name           : Status History
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   permission     : 4\1
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 16
+   name           : Notifier Listening__c
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746177466
+   owner          : dice
+   last-changed   : dice
+   enum-value     : Not Listening
+   enum-value     : Listening
+   default        : 0
+   permission     : 4\2
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 379
+   name           : Record ID__c
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 128
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050401
+   name           : Message
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 0
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\39\4\6\1\3\41\2\12823\27800\47693\30600\5\6\2\7\40\2147483648\14\40\1\20\4\7\Message\21\41\2\0\400\15410\2800\60\40\1\66\41\2\31721\0\34870\280&
+ display-instance : 0\143\40\4294967295\151\41\2\15973\0\31158\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\530&
+ display-instance : 2\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397&
+ display-instance : \4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050402
+   name           : Sort
+   datatype       : 2
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746179310
+   owner          : dice
+   last-changed   : dice
+   range-low      : -2147483647
+   range-high     : 2147483647
+ display-instance : 536870912\22\3\41\2\14285\32400\43306\35200\4\6\1\5\6\2\7\40\2147483649\14\40\1\20\4\4\Sort\21\41\2\0\400\13273\2800\62\6\1\66\41\2\0\0\0\0\143\40\429496&
+ display-instance : 7295\151\41\2\13835\0\29020\2800\170\40\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5233\4\0\\5234\4\4\left\5345\4\0\\5347\4\0\\5396\6\0\5397\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+end
+begin schema
+   name           : HLX:Standup:Users
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 50
+   timestamp      : 1746189659
+   owner          : HLX:Standup
+   last-changed   : dice
+   default-vui    : Default Administrator View__c
+   num-vuis       : 3
+   export-version : 12
+   schema-type    : 1
+   next-field-id  : 1225050591
+   index          : 1\379\1\0
+   index          : 2\1225050202 1225050201\1\0
+   object-prop    : 4\0\0\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   assoc-to-follow-type : archive
+  assoc-to-follow : 
+   assoc-sel-type : 0
+     assoc-list   : 0\
+   schema-row-identifier : 0b35d857abcbc81d5d42110ffa50ad77
+vui  {
+   id             : 536870912
+   name           : Default Administrator View__c
+   label          : Default Administrator View__c
+   timestamp      : 1746189659
+   vui-locale     : 
+   vui-type       : 1
+   owner          : dice
+   last-changed   : dice
+   display-prop   : 1\20\4\29\Default Administrator View__c\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+vui  {
+   id             : 536870913
+   name           : pwa_team
+   label          : pwa_team
+   timestamp      : 1746189659
+   vui-locale     : 
+   vui-type       : 9
+   owner          : u0017931
+   last-changed   : dice
+   display-prop   : 3\20\4\8\pwa_team\272\2\1\60019\4\3\New\
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+}
+vui  {
+   id             : 536870938
+   name           : pwa_user
+   label          : pwa_user
+   timestamp      : 1746189659
+   vui-locale     : 
+   vui-type       : 9
+   owner          : u0017931
+   last-changed   : dice
+   display-prop   : 3\20\4\8\pwa_user\272\2\1\60019\4\6\NewNew\
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+}
+field {
+   id             : 1
+   name           : User_ID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 15
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\14\3\41\2\7536\2500\32845\5300\4\6\1\7\40\2147483640\20\4\7\User_ID\21\41\2\0\400\9561\2800\27\8\16\28\6\4\29\6\1\60\40\1\65\41\2\0\0\0\0\143\4&
+ display-instance : 0\4294967295\151\41\2\10123\0\25308\2800\170\40\0\231\6\1\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 2
+   name           : Submitter
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : $-1$
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\7986\5000\36557\7800\4\6\1\7\40\2147483641\20\4\9\Submitter\21\41\2\0\400\9111\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\30\65\41\2\0\&
+ display-instance : 0\0\0\66\41\2\25421\0\28570\2800\143\40\4294967295\151\41\2\9673\0\24858\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 3
+   name           : Create Date
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746162032
+   owner          : dice
+   last-changed   : dice
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\6974\7500\36557\10300\4\6\1\7\40\2147483642\20\4\11\Create Date\21\41\2\0\400\10123\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\23\65\41&
+ display-instance : \2\0\0\0\0\66\41\2\26434\0\29583\2800\143\40\4294967295\151\41\2\10686\0\25871\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 4
+   name           : Assigned To
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\6861\10000\36557\12800\4\6\1\7\40\2147483643\20\4\11\Assigned To\21\41\2\0\400\10236\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\30\65\4&
+ display-instance : 1\2\0\0\0\0\66\41\2\26546\0\29695\2800\143\40\4294967295\151\41\2\10798\0\25983\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 5
+   name           : Last Modified By
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\3599\12500\36557\15300\4\6\1\7\40\2147483644\20\4\16\Last Modified By\21\41\2\0\400\13498\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\33&
+ display-instance : \65\41\2\0\0\0\0\66\41\2\29808\0\32957\2800\143\40\4294967295\151\41\2\14060\0\29245\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 6
+   name           : Modified Date
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746162032
+   owner          : dice
+   last-changed   : dice
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\5624\15000\36557\17800\4\6\1\7\40\2147483645\20\4\13\Modified Date\21\41\2\0\400\11473\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\23\65&
+ display-instance : \41\2\0\0\0\0\66\41\2\27784\0\30933\2800\143\40\4294967295\151\41\2\12035\0\27220\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 7
+   name           : Status
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1746162032
+   owner          : dice
+   last-changed   : dice
+   enum-value     : Active
+   enum-value     : Inactive
+   enum-value     : Delete
+   default        : 0
+   permission     : 4\2
+   permission     : 3\1
+ display-instance : 536870912\17\3\41\2\10798\17500\39144\20000\4\6\1\7\40\2147483646\20\4\6\Status\21\41\2\0\400\6299\2500\27\8\16\28\6\4\29\6\1\60\40\1\61\40\0\64\6\1\65\4&
+ display-instance : 1\2\0\0\0\0\143\40\4294967295\151\41\2\6861\400\28345\2900\170\40\0\230\4\26\3\0\New\1\Assigned\2\Fixed\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 8
+   name           : Short Description
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : x
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\1012\20000\36557\22800\4\6\1\7\40\2147483647\20\4\17\Short Description\21\41\2\0\400\16085\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\5&
+ display-instance : 0\65\41\2\0\0\0\0\66\41\2\32395\0\35544\2800\143\40\4294967295\151\41\2\16647\0\31832\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 15
+   name           : Status History
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   permission     : 4\1
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 16
+   name           : Notifier Listening__c
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746161674
+   owner          : dice
+   last-changed   : dice
+   enum-value     : Not Listening
+   enum-value     : Listening
+   default        : 0
+   permission     : 4\2
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 379
+   name           : Record ID__c
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 128
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870914
+   name           : Container Panel Holder__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\30\3\41\2\562\500\191788\84500\4\6\1\7\40\2147483648\14\40\1\20\4\15\Panel Holder__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\0\272\2\1\&
+ display-instance : 273\6\4\274\2\1\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\3\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\5298\6\0\532&
+ display-instance : 8\6\0\5329\4\4\left\5381\6\0\
+ display-instance : 536870938\31\3\41\2\562\500\191788\84500\4\6\1\7\40\2147483648\14\40\1\20\4\15\Panel Holder__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\0\272\2\1\&
+ display-instance : 273\6\4\274\2\1\275\2\0\276\2\0\277\2\0\278\2\0\283\2\840\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\3\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\52&
+ display-instance : 98\6\0\5328\6\0\5329\4\4\left\5381\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870915
+   name           : Container Panel__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1124\1000\191225\84000\4\6\1\7\40\2147483649\11\4\8\0xC1BAAE\14\40\1\20\4\18\Container Panel__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\4&
+ display-instance : 0\1\169\40\1\170\40\536870914\272\6\0\281\2\0\282\4\8\0xC98821\283\2\93925\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\&
+ display-instance : 3\1.0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\3\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\523&
+ display-instance : 5\4\4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+ display-instance : 536870938\48\3\41\2\1124\1000\191225\84000\4\6\1\7\40\2147483649\11\4\8\0xC1BAAE\14\40\1\20\4\18\Container Panel__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\4&
+ display-instance : 0\1\169\40\1\170\40\536870914\272\6\0\281\2\0\282\4\8\0xC98821\283\2\92238\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\&
+ display-instance : 3\1.0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\3\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\523&
+ display-instance : 5\4\4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870916
+   name           : Sub Panel Holder__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\30\3\41\2\1124\1000\190100\83000\4\6\1\7\40\2147483650\14\40\1\20\4\15\Panel Holder__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\53687091&
+ display-instance : 5\272\2\1\273\6\4\274\2\1\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\4\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\52&
+ display-instance : 98\6\0\5328\6\0\5329\4\4\left\5381\6\0\
+ display-instance : 536870938\31\3\41\2\1124\1000\190100\83000\4\6\1\7\40\2147483650\14\40\1\20\4\15\Panel Holder__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\53687091&
+ display-instance : 5\272\2\1\273\6\4\274\2\1\275\2\0\276\2\0\277\2\0\278\2\0\283\2\830\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\4\5216\40\0\5233\4\0\\5234\4\4\left\5&
+ display-instance : 297\6\4\5298\6\0\5328\6\0\5329\4\4\left\5381\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870917
+   name           : Sub Panel__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1687\1500\189538\82500\4\6\1\7\40\2147483651\11\4\8\0xC1BAAE\14\40\1\20\4\12\Sub Panel__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\1\16&
+ display-instance : 9\40\1\170\40\536870916\272\6\0\281\2\0\282\4\8\0xC98821\283\2\91676\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.0\&
+ display-instance : 305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\4\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\4\&
+ display-instance : NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+ display-instance : 536870938\48\3\41\2\1687\1500\189538\82500\4\6\1\7\40\2147483651\11\4\8\0xC1BAAE\14\40\1\20\4\12\Sub Panel__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\1\16&
+ display-instance : 9\40\1\170\40\536870916\272\6\0\281\2\0\282\4\8\0xC98821\283\2\89988\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.0\&
+ display-instance : 305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\4\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\4\&
+ display-instance : NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870918
+   name           : Section Panel Holder__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\30\3\41\2\1124\1000\187850\81000\4\6\1\7\40\2147483652\14\40\1\20\4\15\Panel Holder__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\53687091&
+ display-instance : 7\272\2\1\273\6\4\274\2\1\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\52&
+ display-instance : 98\6\0\5328\6\0\5329\4\4\left\5381\6\0\
+ display-instance : 536870938\31\3\41\2\1124\1000\190100\83000\4\6\1\7\40\2147483652\14\40\1\20\4\15\Panel Holder__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\53687091&
+ display-instance : 7\272\2\1\273\6\4\274\2\1\275\2\0\276\2\0\277\2\0\278\2\0\283\2\820\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5&
+ display-instance : 297\6\4\5298\6\0\5328\6\0\5329\4\4\left\5381\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870919
+   name           : Section Panel__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1687\1500\187288\80500\4\6\1\7\40\2147483653\11\4\8\0xC1BAAE\14\40\1\20\4\16\Section Panel__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\&
+ display-instance : 1\169\40\1\170\40\536870918\272\6\0\281\2\0\282\4\8\0xC98821\283\2\89426\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\&
+ display-instance : 1.0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\&
+ display-instance : 4\4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+ display-instance : 536870938\48\3\41\2\1687\1500\187288\80500\4\6\1\7\40\2147483653\11\4\8\0xC1BAAE\14\40\1\20\4\16\Section Panel__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\&
+ display-instance : 1\169\40\1\170\40\536870918\272\6\0\281\2\0\282\4\8\0xC98821\283\2\89988\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\&
+ display-instance : 1.0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\&
+ display-instance : 4\4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870920
+   name           : Panel Holder__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\30\3\41\2\4274\3000\70078\51900\4\6\1\7\40\2147483654\14\40\1\20\4\15\Panel Holder__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\536870919&
+ display-instance : \273\6\4\274\6\1\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\5298\6\0\53&
+ display-instance : 28\2\0\5329\4\4\left\5381\6\0\5387\2\20\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870921
+   name           : Panel__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\0\0\0\48900\4\6\1\7\40\2147483655\11\4\8\0xC1BAAE\14\40\1\20\4\8\Panel__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\1\169\40\1\170\40\53&
+ display-instance : 6870920\272\6\0\281\2\0\282\4\8\0xC98821\283\2\13273\284\2\2812\285\2\23059\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.0\305\4\8\0xFFFFFF&
+ display-instance : \306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\2\12\5244\4\4\NONE&
+ display-instance : \5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870922
+   name           : Section Panel2__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1124\1000\1124\49900\4\6\1\7\40\2147483656\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel2__c\24\4\8\0xFFFFFF\27\8\2\143\40\2\168\40\1&
+ display-instance : \169\40\1\170\40\536870920\272\6\0\281\2\0\282\4\8\0xC98821\283\2\4499\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.&
+ display-instance : 0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\&
+ display-instance : 2\12\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870923
+   name           : Section Panel3__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\49\3\41\2\1124\1000\1124\49900\4\6\1\7\40\2147483657\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel3__c\24\4\8\0xFFFFFF\27\8\2\143\40\3\168\40\1&
+ display-instance : \169\40\1\170\40\536870920\272\6\0\281\2\0\282\4\8\0xC98821\283\2\6636\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.&
+ display-instance : 0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\&
+ display-instance : 2\12\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5251\4\4\pb-5\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870924
+   name           : Section Panel4__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\49\3\41\2\1124\1000\1124\49900\4\6\1\7\40\2147483658\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel4__c\24\4\8\0xFFFFFF\27\8\2\143\40\4\168\40\1&
+ display-instance : \169\40\1\170\40\536870920\272\6\0\281\2\0\282\4\8\0xC98821\283\2\5961\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.&
+ display-instance : 0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\&
+ display-instance : 4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5251\4\4\pb-2\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870925
+   name           : Panel Holder2__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\30\3\41\2\1349\1600\60404\9500\4\6\1\7\40\2147483659\14\40\1\20\4\16\Panel Holder2__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\536870921&
+ display-instance : \273\6\4\274\2\0\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\5298\6\0\53&
+ display-instance : 28\2\0\5329\4\4\left\5381\6\0\5387\2\20\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870926
+   name           : Panel2__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\0\0\0\7900\4\6\1\7\40\2147483660\11\4\8\0xC1BAAE\14\40\1\20\4\9\Panel2__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\1\169\40\1\170\40\53&
+ display-instance : 6870925\272\6\0\281\2\0\282\4\8\0xC98821\283\2\27446\284\2\2812\285\2\27446\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.0\305\4\8\0xFFFFFF&
+ display-instance : \306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\4\auto\5244\4\4\NO&
+ display-instance : NE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870929
+   name           : Panel Holder4__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\30\3\41\2\1124\700\33070\5000\4\6\1\7\40\2147483663\14\40\1\20\4\16\Panel Holder4__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\536870923\&
+ display-instance : 273\6\4\274\2\0\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\5298\6\0\532&
+ display-instance : 8\2\0\5329\4\4\left\5381\6\0\5387\2\20\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870930
+   name           : Panel4__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\0\0\0\4300\4\6\1\7\40\2147483664\11\4\8\0xC1BAAE\14\40\1\20\4\9\Panel4__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\1\169\40\1\170\40\53&
+ display-instance : 6870929\272\6\0\281\2\0\282\4\8\0xC98821\283\2\27896\284\2\2812\285\2\27896\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.0\305\4\8\0xFFFFFF&
+ display-instance : \306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\4\auto\5244\4\4\NO&
+ display-instance : NE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870935
+   name           : Section Panel5__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1124\1000\1124\49900\4\6\1\7\40\2147483666\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel5__c\24\4\8\0xFFFFFF\27\8\2\143\40\1\168\40\1&
+ display-instance : \169\40\1\170\40\536870920\272\6\0\281\2\0\282\4\8\0xC98821\283\2\20584\284\2\2812\285\2\20584\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1&
+ display-instance : .0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4&
+ display-instance : \4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870936
+   name           : Table Field__c
+   datatype       : 33
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+tablefield-schema : HLX:Standup:Users
+tablefield-server : @
+tablefield-query  : 4\1\1\1225050202\99\1225050202\
+tablefield-numcols: 4
+tablefield-maxret : 1000
+ display-instance : 536870913\58\3\41\2\2249\2000\60179\14300\4\6\1\5\6\2\7\40\2147483667\14\40\1\20\4\0\\27\8\2\40\41\4\2249\2000\60179\2000\60179\14300\2249\14300\143\40\4&
+ display-instance : 294967295\170\40\536870935\224\40\1\226\6\0\227\6\1\232\4\3\Add\233\4\6\Delete\234\4\7\Display\235\4\4\Save\236\4\11\Attach Name\237\4\9\File Name\238\4\&
+ display-instance : 8\Max Size\271\4\8\Deselect\5001\6\0\5003\6\2\5004\6\4\5006\4\10\Next Chunk\5007\4\14\Previous Chunk\5008\4\0\\5009\4\0\\5012\6\1\5013\4\10\Select All\50&
+ display-instance : 14\4\12\DeSelect All\5015\4\0\\5016\4\6\Report\5023\6\0\5060\4\0\\5067\6\0\5071\6\0\5072\6\0\5121\6\0\5212\6\0\5233\4\0\\5234\4\4\left\5287\4\0\\5308\6\1&
+ display-instance : \5319\6\0\5324\6\0\5335\4\4\HIDE\5339\6\1\5346\6\2\5347\4\0\\5357\40\0\5360\6\0\5363\4\0\\5364\4\0\\5371\4\0\\5395\6\0\5397\4\0\\5399\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870939
+   name           : Panel Holder5__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870938\30\3\41\2\3487\3700\55455\39600\4\6\1\7\40\2147483654\14\40\1\20\4\16\Panel Holder5__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\53687091&
+ display-instance : 9\273\6\4\274\6\1\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\5298\6\0\5&
+ display-instance : 328\2\0\5329\4\4\left\5381\6\0\5387\2\20\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870940
+   name           : Panel5__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870938\48\3\41\2\0\0\0\35900\4\6\1\7\40\2147483655\11\4\8\0xC1BAAE\14\40\1\20\4\9\Panel5__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\1\169\40\1\170\40\5&
+ display-instance : 36870939\272\6\0\281\2\0\282\4\8\0xC98821\283\2\11248\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.0\305\4\8\0xFFFFF&
+ display-instance : F\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\4\NONE\5244\4\4\N&
+ display-instance : ONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870941
+   name           : Section Panel6__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870938\48\3\41\2\1124\1000\1124\36900\4\6\1\7\40\2147483656\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel6__c\24\4\8\0xFFFFFF\27\8\2\143\40\1\168\40\1&
+ display-instance : \169\40\1\170\40\536870939\272\6\0\281\2\0\282\4\8\0xC98821\283\2\11248\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1&
+ display-instance : .0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4&
+ display-instance : \4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870942
+   name           : Section Panel7__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870938\48\3\41\2\1124\1000\1124\36900\4\6\1\7\40\2147483657\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel7__c\24\4\8\0xFFFFFF\27\8\2\143\40\2\168\40\1&
+ display-instance : \169\40\1\170\40\536870939\272\6\0\281\2\0\282\4\8\0xC98821\283\2\11248\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1&
+ display-instance : .0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4&
+ display-instance : \4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870943
+   name           : Panel Holder6__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870938\30\3\41\2\4836\2300\36782\9000\4\6\1\7\40\2147483658\14\40\1\20\4\16\Panel Holder6__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\536870940&
+ display-instance : \273\6\4\274\2\0\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\5298\6\0\53&
+ display-instance : 28\2\0\5329\4\4\left\5381\6\0\5387\2\20\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870944
+   name           : Panel6__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870938\48\3\41\2\0\0\0\6700\4\6\1\7\40\2147483659\11\4\8\0xC1BAAE\14\40\1\20\4\9\Panel6__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\1\169\40\1\170\40\53&
+ display-instance : 6870943\272\6\0\281\2\0\282\4\8\0xC98821\283\2\11248\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.0\305\4\8\0xFFFFFF&
+ display-instance : \306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\4\NONE\5244\4\4\NO&
+ display-instance : NE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870945
+   name           : Panel Holder7__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870938\30\3\41\2\4949\2200\36895\26200\4\6\1\7\40\2147483660\14\40\1\20\4\16\Panel Holder7__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\53687094&
+ display-instance : 1\273\6\4\274\2\0\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\5298\6\0\5&
+ display-instance : 328\2\0\5329\4\4\left\5381\6\0\5387\2\20\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870946
+   name           : Panel7__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870938\48\3\41\2\0\0\0\24000\4\6\1\7\40\2147483661\11\4\8\0xC1BAAE\14\40\1\20\4\9\Panel7__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\1\169\40\1\170\40\5&
+ display-instance : 36870945\272\6\0\281\2\0\282\4\8\0xC98821\283\2\11248\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.0\305\4\8\0xFFFFF&
+ display-instance : F\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\4\NONE\5244\4\4\N&
+ display-instance : ONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870947
+   name           : Panel Holder8__c
+   datatype       : 36
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870938\30\3\41\2\4161\1100\36107\25100\4\6\1\7\40\2147483662\14\40\1\20\4\16\Panel Holder8__c\21\41\2\0\0\0\0\27\8\2\143\40\4294967295\170\40\53687094&
+ display-instance : 2\273\6\4\274\2\0\275\2\0\276\2\0\277\2\0\278\2\0\292\2\0\294\2\0\304\40\1\307\6\1\310\6\0\5073\2\5\5216\40\0\5233\4\0\\5234\4\4\left\5297\6\4\5298\6\0\5&
+ display-instance : 328\2\0\5329\4\4\left\5381\6\0\5387\2\20\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870948
+   name           : Panel8__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870938\48\3\41\2\0\0\0\24000\4\6\1\7\40\2147483663\11\4\8\0xC1BAAE\14\40\1\20\4\9\Panel8__c\24\4\8\0xFFFFFF\27\8\2\143\40\0\168\40\1\169\40\1\170\40\5&
+ display-instance : 36870947\272\6\0\281\2\0\282\4\8\0xC98821\283\2\11248\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.0\305\4\8\0xFFFFF&
+ display-instance : F\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\4\NONE\5244\4\4\N&
+ display-instance : ONE\5245\4\4\NONE\5246\6\1\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870950
+   name           : Section Panel8__c
+   datatype       : 35
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\48\3\41\2\1124\1000\1124\8900\4\6\1\7\40\2147483669\11\4\8\0xC1BAAE\14\40\1\20\4\17\Section Panel8__c\24\4\8\0xFFFFFF\27\8\2\143\40\1\168\40\1\&
+ display-instance : 169\40\1\170\40\536870925\272\6\0\281\2\0\282\4\8\0xC98821\283\2\11248\284\2\2812\285\2\16872\286\6\1\292\2\0\294\2\0\296\4\8\0xFFFFFF\297\6\0\298\4\3\1.&
+ display-instance : 0\305\4\8\0xFFFFFF\306\6\0\308\2\0\309\6\0\310\6\0\327\4\1\1\5073\2\5\5074\4\4\NONE\5076\4\4\NONE\5077\4\4\NONE\5216\40\0\5233\4\0\\5234\4\4\left\5235\4\&
+ display-instance : 4\NONE\5244\4\4\NONE\5245\4\4\NONE\5246\6\0\5247\6\1\5248\6\1\5299\2\0\5311\6\0\5330\6\0\5397\4\0\\5398\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536880912
+   name           : col_Name
+   datatype       : 34
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+colfield-parent   : 536870936
+colfield-datafield: 1225050201
+colfield-collength: 254
+colfield-datasrc  : 0
+ display-instance : 536870913\29\3\41\2\0\0\10011\0\4\6\1\20\4\4\Name\27\8\2\60\40\5\220\40\10000\221\40\1\5021\6\0\5204\2\0\5233\4\0\\5234\4\4\left\5294\6\2\5304\6\0\5309\6&
+ display-instance : \0\5313\4\0\\5334\2\0\5340\6\0\5355\4\0\\5356\2\1\5358\4\0\\5365\4\0\\5367\2\1\5372\4\8\multiple\5374\2\0\5378\4\0\\5382\6\0\5383\4\0\\5384\2\0\5404\4\0\&
+ display-instance : \
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536880913
+   name           : col_delete
+   datatype       : 34
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+colfield-parent   : 536870936
+colfield-datafield: 1225050508
+colfield-collength: 254
+colfield-datasrc  : 2
+ display-instance : 536870913\29\3\41\2\0\0\10011\0\4\6\1\20\4\0\\27\8\2\60\40\5\220\40\10000\221\40\3\5021\6\0\5204\2\0\5233\4\0\\5234\4\4\left\5294\6\2\5304\6\0\5309\6\0\5&
+ display-instance : 313\4\0\\5334\2\0\5340\6\0\5355\4\0\\5356\2\1\5358\4\0\\5365\4\0\\5367\2\1\5372\4\8\multiple\5374\2\0\5378\4\0\\5382\6\0\5383\4\0\\5384\2\0\5404\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536880914
+   name           : col_Login
+   datatype       : 34
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+colfield-parent   : 536870936
+colfield-datafield: 1225050230
+colfield-collength: 254
+colfield-datasrc  : 0
+ display-instance : 536870913\29\3\41\2\0\0\10011\0\4\6\1\20\4\5\Login\27\8\2\60\40\5\220\40\10000\221\40\2\5021\6\0\5204\2\0\5233\4\0\\5234\4\4\left\5294\6\2\5304\6\0\5309\&
+ display-instance : 6\0\5313\4\0\\5334\2\0\5340\6\0\5355\4\0\\5356\2\1\5358\4\0\\5365\4\0\\5367\2\1\5372\4\8\multiple\5374\2\0\5378\4\0\\5382\6\0\5383\4\0\\5384\2\0\5404\4\0&
+ display-instance : \\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536880915
+   name           : col_UserID
+   datatype       : 34
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+colfield-parent   : 536870936
+colfield-datafield: 1
+colfield-collength: 254
+colfield-datasrc  : 0
+ display-instance : 536870913\28\3\41\2\0\0\10011\0\4\6\0\20\4\7\User_ID\27\8\2\60\40\5\220\40\10000\221\40\4\5021\6\0\5233\4\0\\5234\4\4\left\5294\6\2\5304\6\0\5309\6\0\531&
+ display-instance : 3\4\0\\5334\2\0\5340\6\0\5355\4\0\\5356\2\1\5358\4\0\\5365\4\0\\5367\2\1\5372\4\8\multiple\5374\2\0\5378\4\0\\5382\6\0\5383\4\0\\5384\2\0\5404\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050201
+   name           : Name
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\39\3\41\2\21597\30300\56467\33100\4\6\1\5\6\2\7\40\2147483648\14\40\1\20\4\4\Name\21\41\2\0\400\15410\2800\60\40\1\66\41\2\31721\0\34870\2800\1&
+ display-instance : 43\40\4294967295\151\41\2\15973\0\31158\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\5302\6&
+ display-instance : \0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397\4\&
+ display-instance : 0\\5403\6\0\
+ display-instance : 536870938\42\3\41\2\2249\2000\20359\6200\4\6\1\5\6\2\7\40\2147483648\14\40\1\20\4\4\Name\21\41\2\0\0\3487\1300\27\8\2\60\40\1\66\41\2\15748\1400\18110\35&
+ display-instance : 00\143\40\4294967295\151\41\2\0\1400\15185\4200\170\40\536870944\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\&
+ display-instance : 4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5379\2\0\5380\4\0\\5382\6&
+ display-instance : \0\5383\4\0\\5384\2\0\5397\4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050202
+   name           : Group
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   char-menu      : HLX:Standup:Groups
+ display-instance : 536870912\38\3\41\2\22497\34500\59504\37300\4\6\1\5\6\2\7\40\2147483649\14\40\1\20\4\5\Group\21\41\2\0\400\15410\2800\60\40\1\65\41\2\31721\0\34083\2100\&
+ display-instance : 66\41\2\34645\0\37007\2100\143\40\4294967295\151\41\2\15973\0\31158\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\52&
+ display-instance : 34\4\4\left\5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\&
+ display-instance : \5397\4\0\\5403\6\0\
+ display-instance : 536870913\44\3\41\2\2249\2000\23283\6200\4\6\1\5\6\2\7\40\2147483649\14\40\1\20\4\4\Team\21\41\2\0\0\3599\1300\27\8\2\60\40\1\65\41\2\15748\1400\18110\35&
+ display-instance : 00\66\41\2\18672\1400\21034\3500\143\40\4294967295\151\41\2\0\1400\15185\4200\170\40\536870926\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0&
+ display-instance : \5233\4\0\\5234\4\4\left\5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\0\5369\0\5370\0\5373\6\0\5375\6\0\5378&
+ display-instance : \4\0\\5379\2\0\5380\4\0\\5382\6\0\5383\4\0\\5384\2\0\5397\4\0\\5403\2\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050230
+   name           : Login
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\37\3\41\2\22497\27100\57367\29900\4\6\1\5\6\2\7\40\2147483650\14\40\1\20\4\5\Login\21\41\2\0\400\15410\2800\60\40\1\66\41\2\31721\0\34870\2800\&
+ display-instance : 143\40\4294967295\151\41\2\15973\0\31158\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\5302\&
+ display-instance : 6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397\4\0\\5403\6\0\
+ display-instance : 536870938\40\3\41\2\2249\2000\20359\6200\4\6\1\5\6\2\7\40\2147483650\14\40\1\20\4\5\Login\21\41\2\0\0\3262\1300\27\8\2\60\40\1\66\41\2\15748\1400\18110\3&
+ display-instance : 500\143\40\4294967295\151\41\2\0\1400\15185\4200\170\40\536870946\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296&
+ display-instance : \4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5379\2\0\5380\4\0\\5382\6\0\5383\4\0\\5384\2&
+ display-instance : \0\5397\4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050502
+   name           : Btn_Close
+   datatype       : 32
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\20\2\8\1\3\41\2\1237\1100\8436\3200\4\6\1\5\6\2\7\40\2147483665\21\41\2\0\0\0\0\27\8\2\110\4\5\Close\143\40\4294967295\170\40\536870924\310\6\0&
+ display-instance : \5231\4\9\secondary\5232\4\0\\5233\4\0\\5234\4\4\left\5376\6\0\5382\6\0\5383\4\0\\5384\2\0\5397\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050508
+   name           : Btn_Delete
+   datatype       : 32
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\20\2\8\1\3\41\2\2249\5200\9448\7300\4\6\1\5\6\2\7\40\2147483668\21\41\2\0\0\0\0\27\8\2\110\4\6\Delete\143\40\4294967295\170\40\536870950\310\6\&
+ display-instance : 0\5231\4\8\tertiary\5232\4\0\\5233\4\8\fa-trash\5234\4\4\left\5376\6\0\5382\6\0\5383\4\0\\5384\2\0\5397\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050589
+   name           : Btn_Save
+   datatype       : 32
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870938\20\2\8\1\3\41\2\2474\2300\9673\4400\4\6\1\5\6\2\7\40\2147483664\21\41\2\0\0\0\0\27\8\2\110\4\4\Save\143\40\4294967295\170\40\536870948\310\6\0\&
+ display-instance : 5231\4\7\primary\5232\4\0\\5233\4\0\\5234\4\4\left\5376\6\0\5382\6\0\5383\4\0\\5384\2\0\5397\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050590
+   name           : Btn_NewUser
+   datatype       : 32
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+ display-instance : 536870913\20\2\8\1\3\41\2\899\600\8098\2700\4\6\1\5\6\2\7\40\2147483670\21\41\2\0\0\0\0\27\8\2\110\4\8\Add user\143\40\4294967295\170\40\536870930\310\6\&
+ display-instance : 0\5231\4\7\primary\5232\4\0\\5233\4\0\\5234\4\4\left\5376\6\0\5382\6\0\5383\4\0\\5384\2\0\5397\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+end
+begin schema
+   name           : HLX:Standup:Standups
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 17
+   timestamp      : 1746189659
+   owner          : HLX:Standup
+   last-changed   : dice
+   default-vui    : Default Administrator View__c
+   num-vuis       : 1
+   export-version : 12
+   schema-type    : 1
+   next-field-id  : 1225050243
+   index          : 1\379\1\0
+   index          : 2\1225050207 1225050202\1\0
+   object-prop    : 4\0\0\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   assoc-to-follow-type : archive
+  assoc-to-follow : 
+   assoc-sel-type : 0
+     assoc-list   : 0\
+   schema-row-identifier : 61910efb0c3df39a052232cac1e1dbaa
+vui  {
+   id             : 536870912
+   name           : Default Administrator View__c
+   label          : Default Administrator View__c
+   timestamp      : 1746189659
+   vui-locale     : 
+   vui-type       : 1
+   owner          : dice
+   last-changed   : dice
+   display-prop   : 1\20\4\29\Default Administrator View__c\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1
+   name           : Standup_ID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 15
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\14\3\41\2\7536\2500\33407\5300\4\6\1\7\40\2147483640\20\4\10\Standup_ID\21\41\2\0\400\10123\2800\27\8\16\28\6\4\29\6\1\60\40\1\65\41\2\0\0\0\0\&
+ display-instance : 143\40\4294967295\151\41\2\10686\0\25871\2800\170\40\0\231\6\1\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 2
+   name           : Submitter
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : $-1$
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\7986\5000\36557\7800\4\6\1\7\40\2147483641\20\4\9\Submitter\21\41\2\0\400\9111\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\30\65\41\2\0\&
+ display-instance : 0\0\0\66\41\2\25421\0\28570\2800\143\40\4294967295\151\41\2\9673\0\24858\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 3
+   name           : Create Date
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746162182
+   owner          : dice
+   last-changed   : dice
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\6974\7500\36557\10300\4\6\1\7\40\2147483642\20\4\11\Create Date\21\41\2\0\400\10123\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\23\65\41&
+ display-instance : \2\0\0\0\0\66\41\2\26434\0\29583\2800\143\40\4294967295\151\41\2\10686\0\25871\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 4
+   name           : Assigned To
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\6861\10000\36557\12800\4\6\1\7\40\2147483643\20\4\11\Assigned To\21\41\2\0\400\10236\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\30\65\4&
+ display-instance : 1\2\0\0\0\0\66\41\2\26546\0\29695\2800\143\40\4294967295\151\41\2\10798\0\25983\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 5
+   name           : Last Modified By
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\3599\12500\36557\15300\4\6\1\7\40\2147483644\20\4\16\Last Modified By\21\41\2\0\400\13498\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\33&
+ display-instance : \65\41\2\0\0\0\0\66\41\2\29808\0\32957\2800\143\40\4294967295\151\41\2\14060\0\29245\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 6
+   name           : Modified Date
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746162182
+   owner          : dice
+   last-changed   : dice
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\5624\15000\36557\17800\4\6\1\7\40\2147483645\20\4\13\Modified Date\21\41\2\0\400\11473\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\23\65&
+ display-instance : \41\2\0\0\0\0\66\41\2\27784\0\30933\2800\143\40\4294967295\151\41\2\12035\0\27220\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 7
+   name           : Status
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1746162182
+   owner          : dice
+   last-changed   : dice
+   enum-value     : New
+   enum-value     : In progress
+   enum-value     : Completed
+   default        : 0
+   permission     : 4\2
+   permission     : 3\1
+ display-instance : 536870912\17\3\41\2\10798\17500\45106\20000\4\6\1\7\40\2147483646\20\4\6\Status\21\41\2\0\400\6299\2500\27\8\16\28\6\4\29\6\1\60\40\1\61\40\0\64\6\1\65\4&
+ display-instance : 1\2\0\0\0\0\143\40\4294967295\151\41\2\6861\400\34307\2900\170\40\0\230\4\33\3\0\New\1\In progress\2\Completed\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 8
+   name           : Short Description
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : x
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\1012\20000\36557\22800\4\6\1\7\40\2147483647\20\4\17\Short Description\21\41\2\0\400\16085\2800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\5&
+ display-instance : 0\65\41\2\0\0\0\0\66\41\2\32395\0\35544\2800\143\40\4294967295\151\41\2\16647\0\31832\2800\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 15
+   name           : Status History
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   permission     : 4\1
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 16
+   name           : Notifier Listening__c
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746161570
+   owner          : dice
+   last-changed   : dice
+   enum-value     : Not Listening
+   enum-value     : Listening
+   default        : 0
+   permission     : 4\2
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 379
+   name           : Record ID__c
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 128
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050202
+   name           : Group
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\37\4\6\1\3\41\2\6074\36500\40944\39300\5\6\2\7\40\2147483649\14\40\1\20\4\5\Group\21\41\2\0\400\15410\2800\60\40\1\66\41\2\31721\0\34870\2800\1&
+ display-instance : 43\40\4294967295\151\41\2\15973\0\31158\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\5302\6&
+ display-instance : \0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397\4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050207
+   name           : Day
+   datatype       : 13
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746161867
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870912\22\3\41\2\7649\32000\38582\34800\4\6\1\5\6\2\7\40\2147483648\14\40\1\20\4\3\Day\21\41\2\0\400\11473\2800\66\41\2\27784\0\30933\2800\143\40\4294&
+ display-instance : 967295\151\41\2\12035\0\27220\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5233\4\0\\5234\4\4\left\5304\6\0\5345\4\0\\5347\4\0\\5397\4&
+ display-instance : \0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050232
+   name           : zzCheckStandupID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 15
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\40\4\6\1\3\41\2\7199\54500\38920\57300\5\6\2\7\40\2147483650\14\40\1\20\4\16\zzCheckStandupID\21\41\2\0\400\15973\2800\27\8\16\28\6\4\29\6\1\60&
+ display-instance : \40\1\65\41\2\0\0\0\0\143\40\4294967295\151\41\2\16535\0\31720\2800\170\40\0\231\6\1\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\&
+ display-instance : 4\left\5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397&
+ display-instance : \4\0\\5403\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050240
+   name           : tbl_users
+   datatype       : 33
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+tablefield-schema : HLX:Standup:Users
+tablefield-server : @
+tablefield-query  : 4\1\1\1225050202\99\1225050202\
+tablefield-numcols: 2
+tablefield-maxret : 1000
+ display-instance : 536870912\53\3\41\2\25196\61400\102923\86800\4\6\1\5\6\2\7\40\2147483651\14\40\1\20\4\14\Table Field__c\40\41\4\25196\61400\102923\61400\102923\86800\251&
+ display-instance : 96\86800\143\40\4294967295\170\40\0\224\40\1\226\6\0\227\6\1\232\4\3\Add\233\4\6\Delete\234\4\7\Display\235\4\4\Save\236\4\11\Attach Name\237\4\9\File Na&
+ display-instance : me\238\4\8\Max Size\271\4\8\Deselect\5001\6\0\5006\4\10\Next Chunk\5007\4\14\Previous Chunk\5008\4\25\Table has not been loaded\5009\4\18\{2} of {3} resu&
+ display-instance : lts\5013\4\10\Select All\5014\4\12\DeSelect All\5015\4\7\Refresh\5016\4\6\Report\5023\6\0\5060\4\11\Preferences\5067\6\0\5071\6\1\5072\6\1\5121\6\0\5212\&
+ display-instance : 6\0\5233\4\0\\5234\4\4\left\5308\6\1\5319\6\0\5324\6\0\5335\4\4\HIDE\5339\6\1\5346\6\2\5347\4\0\\5357\40\0\5360\6\0\5363\4\0\\5364\4\0\\5371\4\0\\5395\6\&
+ display-instance : 0\5397\4\0\\5399\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050241
+   name           : col_Login
+   datatype       : 34
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746167978
+   owner          : dice
+   last-changed   : dice
+colfield-parent   : 1225050240
+colfield-datafield: 1225050230
+colfield-collength: 254
+colfield-datasrc  : 0
+ display-instance : 536870912\27\3\41\2\0\0\10011\0\4\6\1\20\4\5\Login\60\40\5\170\40\1225050240\220\40\10000\221\40\1\5021\6\0\5233\4\0\\5234\4\4\left\5294\6\2\5304\6\0\530&
+ display-instance : 9\6\0\5313\4\0\\5334\2\0\5340\6\0\5355\4\0\\5356\40\1\5358\4\0\\5365\4\0\\5367\6\1\5372\4\8\multiple\5374\40\0\5378\4\0\\5382\6\0\5383\4\0\\5404\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050242
+   name           : col_Name
+   datatype       : 34
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1746167978
+   owner          : dice
+   last-changed   : dice
+colfield-parent   : 1225050240
+colfield-datafield: 1225050201
+colfield-collength: 254
+colfield-datasrc  : 0
+ display-instance : 536870912\27\3\41\2\0\0\10011\0\4\6\1\20\4\4\Name\60\40\5\170\40\1225050240\220\40\10000\221\40\2\5021\6\0\5233\4\0\\5234\4\4\left\5294\6\2\5304\6\0\5309&
+ display-instance : \6\0\5313\4\0\\5334\2\0\5340\6\0\5355\4\0\\5356\40\1\5358\4\0\\5365\4\0\\5367\6\1\5372\4\8\multiple\5374\40\0\5378\4\0\\5382\6\0\5383\4\0\\5404\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+end
+begin schema
+   name           : HLX:Standup:Standups_Join_Participants
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 12
+   timestamp      : 1746189659
+   owner          : HLX:Standup
+   last-changed   : dice
+   default-vui    : Default Administrator View__c
+   num-vuis       : 1
+   export-version : 12
+   schema-type    : 2
+      primary     : HLX:Standup:Standups
+      secondary   : HLX:Standup:Participants
+      join-option : 0
+      join-query  : 4\1\1\1225050203\99\379\
+   next-field-id  : 1225050271
+   object-prop    : 4\0\0\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   assoc-to-follow-type : archive
+  assoc-to-follow : 
+   assoc-sel-type : 0
+     assoc-list   : 0\
+   schema-row-identifier : 70245ce3b58fe0aaf1b30122f129fadf
+vui  {
+   id             : 536870912
+   name           : Default Administrator View__c
+   label          : Default Administrator View__c
+   timestamp      : 1746189659
+   vui-locale     : 
+   vui-type       : 1
+   owner          : dice
+   last-changed   : dice
+   display-prop   : 1\20\4\29\Default Administrator View__c\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1
+   name           : Join_ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\14\3\41\2\5286\2500\30595\5300\4\6\1\7\40\2147483644\20\4\7\Join_ID\21\41\2\0\400\9561\2800\27\8\16\28\6\4\29\6\1\60\40\1\65\41\2\0\0\0\0\143\4&
+ display-instance : 0\4294967295\151\41\2\10123\0\25308\2800\170\40\0\231\6\1\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 7
+   name           : Status
+   datatype       : 6
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 7
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1746179044
+   owner          : dice
+   last-changed   : dice
+   enum-value     : New
+   enum-value     : Done
+   enum-value     : Questions
+   enum-value     : Delete
+   default        : 0
+   permission     : 4\2
+   permission     : 3\1
+ display-instance : 536870912\24\3\41\2\5961\23200\52080\25700\4\6\1\5\6\2\7\40\2147483651\14\40\1\20\4\6\Status\21\41\2\0\400\6299\2500\27\8\16\60\40\1\64\6\1\143\40\429496&
+ display-instance : 7295\151\41\2\6861\400\46118\2900\170\40\0\230\4\35\4\0\New\1\Done\2\Questions\3\Delete\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5233\4\0\\5234\&
+ display-instance : 4\4\left\5345\4\0\\5347\4\0\\5397\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 15
+   name           : Status-History
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 15
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189658
+   owner          : dice
+   last-changed   : dice
+   permission     : 4\1
+   permission     : 3\1
+   object-prop    : 1\90016\4\1\1\
+}
+field {
+   id             : 379
+   name           : Record ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 379
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870913
+   name           : Participant_ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 15
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\14\3\41\2\4274\17800\31720\20600\4\6\1\7\40\2147483645\20\4\14\Participant_ID\21\41\2\0\400\11698\2800\27\8\16\28\6\4\29\6\1\60\40\1\65\41\2\0\&
+ display-instance : 0\0\0\143\40\4294967295\151\41\2\12260\0\27445\2800\170\40\0\231\6\1\
+   object-prop    : 3\60063\2\0\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 536870914
+   name           : Record ID__c
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 379
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 128
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\39\3\41\2\46456\13300\77389\16100\4\6\1\5\6\2\7\40\2147483652\14\40\1\20\4\12\Record ID__c\21\41\2\0\400\11473\2800\60\40\1\66\41\2\27784\0\309&
+ display-instance : 33\2800\143\40\4294967295\151\41\2\12035\0\27220\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\&
+ display-instance : 0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0&
+ display-instance : \\5397\4\0\\5403\6\0\
+   object-prop    : 3\60063\2\0\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050201
+   name           : Name
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 1225050201
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\37\3\41\2\4161\30400\39031\33200\4\6\1\5\6\2\7\40\2147483650\14\40\1\20\4\4\Name\21\41\2\0\400\15410\2800\60\40\1\66\41\2\31721\0\34870\2800\14&
+ display-instance : 3\40\4294967295\151\41\2\15973\0\31158\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\5302\6\&
+ display-instance : 0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397\4\0\\5403\6\0\
+   object-prop    : 3\60063\2\0\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050202
+   name           : Group
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 1225050202
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\37\3\41\2\5174\14100\40044\16900\4\6\1\5\6\2\7\40\2147483648\14\40\1\20\4\5\Group\21\41\2\0\400\15410\2800\60\40\1\66\41\2\31721\0\34870\2800\1&
+ display-instance : 43\40\4294967295\151\41\2\15973\0\31158\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\5302\6&
+ display-instance : \0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397\4\0\\5403\6\0\
+   object-prop    : 3\60063\2\0\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050203
+   name           : Standup_ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 1225050203
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\37\3\41\2\5286\43000\40156\45800\4\6\1\5\6\2\7\40\2147483649\14\40\1\20\4\10\Standup_ID\21\41\2\0\400\15410\2800\60\40\1\66\41\2\31721\0\34870\&
+ display-instance : 2800\143\40\4294967295\151\41\2\15973\0\31158\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\&
+ display-instance : 5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397\4\0\\5403\6\0\
+   object-prop    : 3\60063\2\0\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050204
+   name           : User_ID
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 1225050204
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 255
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\39\3\41\2\5399\37400\40269\40200\4\6\1\5\6\2\7\40\2147483647\14\40\1\20\4\7\User_ID\21\41\2\0\400\15410\2800\60\40\1\66\41\2\31721\0\34870\2800&
+ display-instance : \143\40\4294967295\151\41\2\15973\0\31158\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\5302&
+ display-instance : \6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397\&
+ display-instance : 4\0\\5403\6\0\
+   object-prop    : 3\60063\2\0\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050207
+   name           : Day
+   datatype       : 13
+   fieldtype      : 2
+      mapschema   : 0
+      mapfield    : 1225050207
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746166125
+   owner          : dice
+   last-changed   : dice
+ display-instance : 536870912\22\3\41\2\5174\8800\36107\11600\4\6\1\5\6\2\7\40\2147483646\14\40\1\20\4\3\Day\21\41\2\0\400\11473\2800\66\41\2\27784\0\30933\2800\143\40\42949&
+ display-instance : 67295\151\41\2\12035\0\27220\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5233\4\0\\5234\4\4\left\5304\6\0\5345\4\0\\5347\4\0\\5397\4\&
+ display-instance : 0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1225050270
+   name           : Comments
+   datatype       : 4
+   fieldtype      : 2
+      mapschema   : 1
+      mapfield    : 1225050270
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   length-units   : 0
+   maxlength      : 0
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\39\4\6\1\3\41\2\45331\36600\73789\39400\5\6\2\7\40\2147483653\14\40\1\20\4\8\Comments\21\41\2\0\400\8998\2800\60\40\1\66\41\2\25309\0\28458\280&
+ display-instance : 0\143\40\4294967295\151\41\2\9561\0\24746\2800\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\5302&
+ display-instance : \6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5380\4\0\\5382\6\0\5383\4\0\\5397\&
+ display-instance : 4\0\\5403\6\0\
+   object-prop    : 3\60063\2\0\90016\4\1\1\90015\2\4\
+}
+end
+begin active link
+   name           : HLX:Standup:Btn Settings Open Group Administration OW
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : u0017931
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Home
+   actlink-mask   : 1
+   actlink-control: 536870929
+   enable         : 1
+   action {
+      open-server : @
+      open-schema : HLX:Standup:Users
+      open-vui    : pwa_team
+      open-close  : 1
+      open-input  : 1\1225050202\102\1\@\1\@\1\1225050202\0\1\4\
+      open-output : 0\
+      open-winmod : 20
+      open-target : New
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 0
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 536870931
+      char-menu   : 
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Home:Clear Group Clear Table RunP
+   timestamp      : 1746180025
+   export-version : 12
+   owner          : dice
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Home
+   actlink-focus  : 1225050202
+   enable         : 1
+   action {
+      command     : PERFORM-ACTION-TABLE-CLEAR 536870931
+   }
+   object-prop    : 4\60087\2\1\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Home:E EventStandupComments Update Comments PshF
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : dice
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Home
+   actlink-mask   : 1048576
+   enable         : 1
+   actlink-query  : 4\1\2\1\31\2\4\20\EventStandupComments\
+   action {
+      set-field   : 0\1225050286\105\46\3\101\1\41\101\2\0\104\2\105\24\2\101\1\41\101\4\3\###\101\2\1\
+      set-field   : 1\1225050288\105\46\3\101\1\41\104\1\105\24\2\101\1\41\101\4\3\###\101\2\3\101\2\2000\
+   }
+   action {
+      push-field  : 0\1\@\24\HLX:Standup:Participants\1\1225050270\4\1\1\1\99\1225050286\3\3\102\1\@\1\@\1\1225050288\0\1\4\
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Home:E EventStandupDeleteRow Remove Participant PshF ChgF
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : dice
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Home
+   actlink-mask   : 1048576
+   enable         : 1
+   actlink-query  : 4\1\2\1\31\2\4\21\EventStandupDeleteRow\
+   action {
+      set-field   : 0\1225050286\105\46\3\101\1\41\101\2\0\104\2\105\24\2\101\1\41\101\4\3\###\101\2\1\
+      set-field   : 1\1225050288\105\46\3\101\1\41\104\1\105\24\2\101\1\41\101\4\3\###\101\2\3\101\2\2000\
+   }
+   action {
+      push-field  : 0\1\@\24\HLX:Standup:Participants\1\7\4\1\1\1\99\1225050286\3\3\101\6\3\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 536870931
+      char-menu   : 
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Home:E EventStandupStatusChange Update Status PshF
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : dice
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Home
+   actlink-mask   : 1048576
+   enable         : 1
+   actlink-query  : 4\1\2\1\31\2\4\24\EventStandupStatusChange\
+   action {
+      set-field   : 0\1225050286\105\46\3\101\1\41\101\2\0\104\2\105\24\2\101\1\41\101\4\3\###\101\2\1\
+      set-field   : 1\1225050288\105\46\3\101\1\41\104\1\105\24\2\101\1\41\101\4\3\###\101\2\3\101\2\2000\
+   }
+   action {
+      push-field  : 0\1\@\24\HLX:Standup:Participants\1\7\4\1\1\1\99\1225050286\3\3\102\1\@\1\@\1\1225050288\0\1\4\
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Home:G Refresh Standup SetF ChgF
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : dice
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Home
+   enable         : 1
+   action {
+   service-server : @
+   service-schema : HLX:Standup:Standups
+   svc-rqstId-map : 0
+   svc-InFld-map  : 2\1225050202\102\1\@\1\@\1\1225050202\0\1\4\1225050207\102\1\@\1\@\1\1225050207\0\1\4\
+   svc-OutFld-map : 1\1225050203\102\1\@\20\HLX:Standup:Standups\1\1\0\1\4\
+   }
+   action {
+      set-field   : 0\1225050203\102\1\@\20\HLX:Standup:Standups\1\379\1\4\1\1\1225050207\99\1225050207\4\1\1\1225050202\99\1225050202\2\3\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 536870931
+      char-menu   : 
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Home:Mnu Day Refresh Standup CG
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : dice
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Home
+   actlink-mask   : 258
+   actlink-focus  : 1225050207
+   enable         : 1
+   actlink-query  : 1\4\6\1\1225050202\2\0\4\6\1\1225050207\2\0\
+   action {
+      call-server : @
+      call-guide  : HLX:Standup:Home:G Refresh Standup
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Home:Mnu Group Refresh Standup CG
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : dice
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Home
+   actlink-mask   : 128
+   actlink-focus  : 1225050202
+   enable         : 1
+   actlink-query  : 1\4\6\1\1225050202\2\0\4\6\1\1225050207\2\0\
+   action {
+      call-server : @
+      call-guide  : HLX:Standup:Home:G Refresh Standup
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Home:WL Set Daily Standup Config SetF ChgF
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : dice
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Home
+   actlink-mask   : 262144
+   enable         : 1
+   action {
+      set-field   : 0\1225050207\101\1\4\
+      set-field   : 1\1225050592\101\4\10\Standup - \
+   }
+   action {
+      set-field   : 0\1225050592\104\1\102\1\*\1\*\1\1225050592\0\1\4\102\1\*\1\*\1\1225050207\0\1\4\
+   }
+   action {
+      set-field   : 0\1225050202\102\1\@\17\HLX:Standup:Users\1\1225050202\4\1\1\1225050230\2\1\1\2\3\
+   }
+   action {
+      call-server : @
+      call-guide  : HLX:Standup:Home:G Refresh Standup
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Users:Btn Close Window CW
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : u0017931
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Users
+   actlink-mask   : 1
+   actlink-control: 1225050502
+   enable         : 1
+   action {
+      close-wnd   : 
+      close-all   : 0
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Users:Btn Delete Remove User RunP ChgF
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : u0017931
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Users
+   actlink-mask   : 1
+   actlink-control: 536880913
+   enable         : 1
+   actlink-query  : 4\6\1\536880915\2\0\
+   action {
+      push-field  : 0\1\@\17\HLX:Standup:Users\1\7\4\1\1\1\99\536880915\3\3\101\6\2\
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 536870936
+      char-menu   : 
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Users:Btn NewUser Open Dialogue OW ChgF
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : u0017931
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Users
+   actlink-mask   : 1
+   actlink-control: 1225050590
+   enable         : 1
+   actlink-query  : 4\6\1\1225050202\2\0\
+   action {
+      open-server : @
+      open-schema : HLX:Standup:Users
+      open-vui    : pwa_user
+      open-close  : 1
+      open-input  : 1\1225050202\102\1\@\1\@\1\1225050202\0\1\4\
+      open-output : 0\
+      open-winmod : 20
+      open-target : New
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 0
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 536870936
+      char-menu   : 
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Users:Btn Save Add User to Group PshF CW
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : u0017931
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Users
+   actlink-mask   : 1
+   actlink-control: 1225050589
+   enable         : 1
+   actlink-query  : 1\1\4\6\1\1225050202\2\0\4\6\1\1225050201\2\0\4\6\1\1225050230\2\0\
+   action {
+      push-field  : 0\1\@\17\HLX:Standup:Users\1\1225050201\1\4\1\1\1225050202\99\1225050202\4\1\1\1225050201\99\1225050201\4\3\102\1\@\1\@\1\1225050201\0\1\4\
+      push-field  : 1\1\@\17\HLX:Standup:Users\1\1225050202\1\4\1\1\1225050202\99\1225050202\4\1\1\1225050201\99\1225050201\4\3\102\1\@\1\@\1\1225050202\0\1\4\
+      push-field  : 2\1\@\17\HLX:Standup:Users\1\1225050230\1\4\1\1\1225050202\99\1225050202\4\1\1\1225050201\99\1225050201\4\3\102\1\@\1\@\1\1225050230\0\1\4\
+   }
+   action {
+      close-wnd   : 
+      close-all   : 0
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Users:Clear Group Clear Table RunP
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : u0017931
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Users
+   actlink-focus  : 1225050202
+   enable         : 1
+   action {
+      command     : PERFORM-ACTION-TABLE-CLEAR 536870936
+   }
+   object-prop    : 4\60087\2\1\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin active link
+   name           : HLX:Standup:Users:Mnu Group VUI pwa_team Refresh Table ChgF
+   timestamp      : 1746189659
+   export-version : 12
+   owner          : u0017931
+   last-changed   : dice
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Users
+   actlink-mask   : 16512
+   actlink-focus  : 1225050202
+   enable         : 1
+   actlink-query  : 1\4\1\2\1\16\2\4\8\pwa_team\4\6\1\1225050202\2\0\
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 536870936
+      char-menu   : 
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin filter
+   name           : HLX:Standup:Standups:G Generate Participants Create Participant PshF`!
+   guid           : d928d3fc890b738f79e3b5444b17896c
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Standups
+   export-version : 12
+   filter-query   : 4\6\99\1225050242\2\0\
+   action {
+      push-field  : 0\1\@\24\HLX:Standup:Participants\1\1225050201\1\4\1\1\1225050203\99\379\4\1\1\1225050201\99\1225050242\4\6\102\1\@\1\@\1\1225050242\0\1\4\
+      push-field  : 1\1\@\24\HLX:Standup:Participants\1\1225050203\1\4\1\1\1225050203\99\379\4\1\1\1225050201\99\1225050242\4\6\102\1\@\1\@\1\379\0\1\4\
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin filter
+   name           : HLX:Standup:Standups:S Create Participants CG
+   guid           : 951edb7987995661c70b521df99f2bea
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Standups
+   export-version : 12
+   filter-query   : 1\1\4\6\99\1225050207\2\0\4\6\99\1225050202\2\0\4\6\99\379\2\0\
+   action {
+      call-server : @
+      call-guide  : HLX:Standup:Standups:G Generate Participants
+      call-mode   : 1
+      call-tableid: 1225050240
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin filter
+   name           : HLX:Standup:Standups:SE Generate Data - Check if Exists SetF
+   guid           : 193769e21885dc8578cca7e7856e75a2
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   filter-op      : 64
+   enable         : 0
+   filter-order   : 50
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Standups
+   export-version : 12
+   filter-query   : 1\4\6\99\1225050207\2\0\4\6\99\1225050202\2\0\
+   action {
+      set-field   : 0\1225050232\102\1\@\20\HLX:Standup:Standups\1\1\1\4\1\1\1225050207\99\1225050207\4\1\1\1225050202\99\1225050202\2\3\
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin filter
+   name           : HLX:Standup:Standups:SE Generate Data - Create Standup PshF
+   guid           : 3e426c02bee32c29290643276c2db125
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   filter-op      : 64
+   enable         : 1
+   filter-order   : 501
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Standups
+   export-version : 12
+   filter-query   : 1\4\6\99\1225050202\2\0\4\6\99\1225050207\2\0\
+   action {
+      push-field  : 0\1\@\20\HLX:Standup:Standups\1\1225050207\1\4\1\1\1225050207\99\1225050207\4\1\1\1225050202\99\1225050202\4\3\102\1\@\1\@\1\1225050207\0\1\4\
+      push-field  : 1\1\@\20\HLX:Standup:Standups\1\1225050202\1\4\1\1\1225050207\99\1225050207\4\1\1\1225050202\99\1225050202\4\3\102\1\@\1\@\1\1225050202\0\1\4\
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin filter
+   name           : HLX:Standup:Users:M Status Delete Remove User RunP
+   guid           : 0970c7757279741b303028f364594e68
+   timestamp      : 1746189659
+   owner          : u0017931
+   last-changed   : dice
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : HLX:Standup:Users
+   export-version : 12
+   filter-query   : 4\1\99\7\2\6\2\
+   action {
+      command     : Application-Delete-Entry $-5$ $1$
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+   errhandler-opt : 0
+end
+begin container
+   name           : HLX:Standup:Home:G Refresh Standup
+   type           : 1
+   num-references : 1
+   timestamp      : 1746189659
+   owner          : dice
+   owning-obj     : 1\2\16\HLX:Standup:Home\
+   last-changed   : dice
+   export-version : 12
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\11\HLX:Standup\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : HLX:Standup:Home:G Refresh Standup SetF ChgF
+}
+end
+begin container
+   name           : HLX:Standup:Standups:G Generate Participants
+   type           : 4
+   num-references : 1
+   timestamp      : 1746189659
+   owner          : dice
+   owning-obj     : 1\2\20\HLX:Standup:Standups\
+   last-changed   : dice
+   export-version : 12
+   object-prop    : 3\90016\4\1\1\90015\2\4\90002\4\11\HLX:Standup\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : HLX:Standup:Standups:G Generate Participants Create Participant PshF`!
+}
+end
+begin char menu
+   name           : HLX:Standup:Groups
+   guid           : 16573b95ec8d0bac5db1de1e0b89df34
+   timestamp      : 1746189659
+   owner          : dice
+   last-changed   : dice
+   refresh-code   : 2
+   char-menu      : 0\2\17\HLX:Standup:Users\1\@\1225050202\1225050202\1\4\6\1\1225050202\2\0\
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+end
+end
+
