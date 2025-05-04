@@ -1,5 +1,0 @@
-<plugin>
-  <name>RandomNumberPlugin</name>
-  <classname>com.example.RandomNumberPlugin</classname>
-  <pathelement type="location">/opt/bmc/ARSystem/pluginsvr/random-number-plugin.jar</pathelement>
-</plugin>

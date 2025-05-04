@@ -14,6 +14,23 @@ These can be copied from container running ar-server (copy files to bmcapi-folde
 3. Skapa jar
     jar cf randomplugin-dynamic.jar -C classes .
 
+4. Kopiera "randomplugin-dynamic.jar" till /opt/bmc/ARSystem/pluginsvr/
+    podman cp randomplugin-dynamic.jar ars-arserver-arserver:/opt/bmc/ARSystem/pluginsvr/
+
+5. Gör jarfilen körbar
+    chmod +x på randomplugin-dynamic.jar
+
+6. Konfigurera den nya jar-filen i ar plugin server
+
+<plugin>
+  <name>RandomPlugin</name>
+  <classname>com.example.RandomNumberPlugin</classname>
+  <pathelement type="location">/opt/bmc/ARSystem/pluginsvr/randomplugin-dynamic.jar</pathelement>
+</plugin>
+
+7. Starta om AR Server-pod
+
+
 
 # Bonus
 
