@@ -9,7 +9,7 @@ These can be copied from container running ar-server (copy files to bmcapi-folde
     podman cp ars-arserver-arserver:/opt/bmc/ARSystem/pluginsvr/arpluginsvr251_build001.jar .
 
 2. Kompilera java-filen
-    javac -cp "bmcapi/arapi251_build001.jar:bmcapi/arutil251_build001.jar:bmcapi/arpluginsvr251_build001.jar" -d classes RandomNumberPlugin.java
+    javac --release 17 -cp "bmcapi/arapi251_build001.jar:bmcapi/arutil251_build001.jar:bmcapi/arpluginsvr251_build001.jar" -d classes RandomNumberPlugin.java
 
 3. Skapa jar
     jar cf randomplugin-dynamic.jar -C classes .
